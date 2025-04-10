@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="sv-SE"> 
+	 
+
+  
+ 
+<head> 
+ 
+<meta charset="UTF-8">
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v21.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Betalningsförmåga för lån - så påverkas lånemöjlighet - 2025</title>
+	<meta name="description" content="Vi förklarar vad återbetalningsförmåga för lån och hur beräknas den.">
+	<link rel="canonical" href="/betalningsformaga/">
+	<meta property="og:locale" content="sv_SE">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Betalningsförmåga för lån - så påverkas lånemöjlighet - 2025">
+	<meta property="og:description" content="Vi förklarar vad återbetalningsförmåga för lån och hur beräknas den.">
+	<meta property="og:url" content="/betalningsformaga/">
+	<meta property="og:site_name" content="Lastoffer Network">
+	<meta property="article:published_time" content="2023-05-03T19:47:39+00:00">
+	<meta property="article:modified_time" content="2024-12-20T13:14:37+00:00">
+	<meta name="author" content="Claes Bengtsson">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:creator" content="@swedfinance">
+	<meta name="twitter:site" content="@swedfinance">
+	<meta name="twitter:label1" content="Skriven av">
+	<meta name="twitter:data1" content="Claes Bengtsson">
+	<meta name="twitter:label2" content="Beräknad lästid">
+	<meta name="twitter:data2" content="21 minuter">
+	<script type="application/ld+json" class="yoast-schema-graph">{
+	    "@context": "https://schema.org",
+	    "@graph": [
+	        {
+	            "@type": "WebPage",
+	            "@id": "/betalningsformaga/",
+	            "url": "/betalningsformaga/",
+	            "name": "Betalningsförmåga för lån - så påverkas lånemöjlighet - 2025",
+	            "isPartOf": {
+	                "@id": "/#website"
+	            },
+	            "primaryImageOfPage": {
+	                "@id": "/betalningsformaga/#primaryimage"
+	            },
+	            "image": {
+	                "@id": "/betalningsformaga/#primaryimage"
+	            },
+	            "thumbnailUrl": "",
+	            "datePublished": "2023-05-03T19:47:39+00:00",
+	            "dateModified": "2024-12-20T13:14:37+00:00",
+	            "author": {
+	                "@id": "/#/schema/person/642ba4419edd2f7575b4598e06435c1e"
+	            },
+	            "description": "Vi förklarar vad återbetalningsförmåga för lån och hur beräknas den.",
+	            "breadcrumb": {
+	                "@id": "/betalningsformaga/#breadcrumb"
+	            },
+	            "inLanguage": "sv-SE",
+	            "potentialAction": [
+	                {
+	                    "@type": "ReadAction",
+	                    "target": [
+	                        "/betalningsformaga/"
+	                    ]
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "ImageObject",
+	            "inLanguage": "sv-SE",
+	            "@id": "/betalningsformaga/#primaryimage",
+	            "url": "",
+	            "contentUrl": "",
+	            "width": 300,
+	            "height": 300,
+	            "caption": "Betalningsförmåga lån"
+	        },
+	        {
+	            "@type": "WebSite",
+	            "@id": "/#website",
+	            "url": "/",
+	            "name": "Lastoffer Network",
+	            "description": "Jämför lånealternativ",
+	            "potentialAction": [
+	                {
+	                    "@type": "SearchAction",
+	                    "target": {
+	                        "@type": "EntryPoint",
+	                        "urlTemplate": "/?s={search_term_string}"
+	                    },
+	                    "query-input": "required name=search_term_string"
+	                }
+	            ],
+	            "inLanguage": "sv-SE"
+	        },
+	        {
+	            "@type": "Person",
+	            "@id": "/#/schema/person/642ba4419edd2f7575b4598e06435c1e",
+	            "name": "Claes Bengtsson",
+	            "image": {
+	                "@type": "ImageObject",
+	                "inLanguage": "sv-SE",
+	                "@id": "/#/schema/person/image/",
+	                "url": "https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=96&d=mm&r=g",
+	                "contentUrl": "https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=96&d=mm&r=g",
+	                "caption": "Claes Bengtsson"
+	            },
+	            "description": "Claes Bengtsson guidar våra besökare till optimala beslut. Claes utbildning kombinerat med praktisk erfarenhet garanterar kvalificerad rådgivning.",
+	            "sameAs": [
+	                "/author/agatoni/",
+	                "https://instagram.com/lastoffernet",
+	                "https://www.linkedin.com/in/languide",
+	                "https://twitter.com/swedfinance",
+	                "https://about.me/bengtssonclaes/"
+	            ],
+	            "url": "/author/agatoni/"
+	        }
+	    ]
+	}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="stylesheet" id="structured-content-frontend-css" href="/wp-content/plugins/structured-content/dist/blocks.style.build.css?ver=1.5.3" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="responsive-style-css" href="/wp-content/themes/responsive/core/css/style.css?ver=6.7.2" type="text/css" media="all">
+<script type="text/javascript" src="/wp-content/themes/responsive/core/js/responsive-modernizr.min.js?ver=2.6.1" id="modernizr-js"></script>
+<meta name="generator" content="WordPress 6.7.2">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fbetalningsformaga%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fbetalningsformaga%2F#038;format=xml">
+
+<!-- StarBox - the Author Box for Humans 3.5.2, visit: https://wordpress.org/plugins/starbox/ -->
+<!-- /StarBox - the Author Box for Humans -->
+
+<link rel="stylesheet" id="ed15ec2703-css" href="/wp-content/plugins/starbox/themes/business/css/frontend.min.css?ver=3.5.2" type="text/css" media="all">
+<script type="text/javascript" src="/wp-content/plugins/starbox/themes/business/js/frontend.min.js?ver=3.5.2" id="3dc3a7e2b0-js"></script>
+<link rel="stylesheet" id="6fbea958d2-css" href="/wp-content/plugins/starbox/themes/admin/css/hidedefault.min.css?ver=3.5.2" type="text/css" media="all">
+<!-- We need this for debugging -->
+<!--   -->
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript>
+<style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style>
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>		<style type="text/css" id="wp-custom-css">11</style>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>  <body>
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">if(typeof ewww_webp_supported==="undefined"){var ewww_webp_supported=!1}if(ewww_webp_supported){document.body.classList.add("webp-support")}</script>  
+<header class="header">
+		   <a class="logo"><img alt="lastoffer.net" title="lastoffer.net" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/media/lnw97.png" decoding="async" class="lazyload" data-eio-rwidth="97" data-eio-rheight="97"><noscript><img alt="lastoffer.net" title="lastoffer.net" src="/media/lnw97.png" data-eio="l"></noscript></a>   
+  
+	
+			   	  	 
+	
+ 
+
+
+	  
+ 
+
+</header>
+	
+	
+	
+	
+<div id="content-outer"> <div id="wrapper" class="clearfix">
+<div id="content-outer">
+ 
+					<div class="meny" itemscope itemtype="https://schema.org/SiteNavigationElement" role="menu">
+<button itemprop="name" role="menuitem" alt="Jämför alla lån" class="mknapp " aria-label="Jämför alla lån"><a title="Jämför alla lån">låna pengar</a></button><button itemprop="name" role="menuitem" alt="Företagslån småföretag" class="mknapp" aria-label="Företagslån småföretag"><a title="Företagslån småföretag" href="/foretagslan/">företagslån</a></button><button itemprop="name" role="menuitem" alt="Sparkonto med hög ränta" class="mknapp" aria-label="Sparkonto med hög ränta"><a title="Sparkonto med hög ränta" href="/sparkonto-hog-ranta/">sparkonto</a></button><button itemprop="name" role="menuitem" alt="Snabblån med låga krav" class="mknapp " aria-label="Snabblån med låga krav"><a title="Snabblån med låga krav" href="/snabblan/">snabblån</a></button><button itemprop="name" role="menuitem" alt="Privatlån enkel ansökan" class="mknapp " aria-label="Privatlån enkel ansökan"><a title="Privatlån enkel ansökan" href="/privatlan/">privatlån</a></button><button itemprop="name" role="menuitem" alt="Samla ihop lån" class="mknapp " aria-label="Samla ihop lån"><a title="Samla ihop lån" href="/samla-lan/">samla lån</a></button>
+</div>
+			
+				<script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+	       "itemListElement": [{
+ "@type":"ListItem",
+ "position":1,
+     "item": {
+   "@type": "WebPage",
+   "@id":"",
+      "url":"",
+     "name":"Låna pengar"}
+  
+
+
+ },
+ {
+ "@type":"ListItem",
+ "position":2,
+     "item": {
+    "@type": "WebPage",
+  "@id":"/foretagslan/",
+    "url":"/foretagslan/",
+   "name":"Företagslån"}
+ },
+ {
+ "@type":"ListItem",
+ "position":3,
+     "item": {
+    "@type": "WebPage",
+  "@id":"/sparkonto-hog-ranta/",
+    "url":"/sparkonto-hog-ranta/",
+    "name":"Sparkonto"}
+  },
+ {
+ "@type":"ListItem",
+ "position":4,
+     "item": {
+    "@type": "WebPage",
+  "@id":"/snabblan/",
+    "url":"/snabblan/",
+    "name":"Snabblån"}
+   },
+ {
+ "@type":"ListItem",
+ "position":5,
+     "item": {
+    "@type": "WebPage",
+  "@id":"/privatlan/",
+    "url":"/privatlan/",
+    "name":"Privatlån"}
+   },
+ {
+ "@type":"ListItem",
+ "position":6,
+     "item": {
+    "@type": "WebPage",
+  "@id":"/samla-lan/",
+    "url":"/samla-lan/",
+    "name":"Samla lån"}
+    }]
+    }</script>
+	  <div id="content" class="grid col-620">
+
+
+
+	
+
+
+		
+
+
+			
+			<div id="post-10773" class="post-10773 post type-post status-publish format-standard has-post-thumbnail hentry category-hjalp-tips">
+
+				
+
+
+				
+	 <div class="1hd">
+	<h1 class="entry-title post-title">Betalningsförmåga för lån</h1>
+		 	<div class="hblp"><div id="date"> 2025-04-10</div></div>
+</div>
+
+<div class="post-meta">
+	<i class="fa fa-calendar" aria-hidden="true"></i><span class="meta-prep meta-prep-author posted">Posted on </span><a href="/betalningsformaga/" title="Betalningsförmåga för lån" rel="bookmark"><time class="timestamp updated" datetime="2024-12-20T02:14:37+01:00">20 december, 2024</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="/author/agatoni/" title="Visa alla inlägg av Claes Bengtsson"><span class="author-gravtar"><img alt="Claes Bengtsson" title="Claes Bengtsson" srcset="data:image/gif;base64,/betalningsformaga/R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=%3D" class="avatar avatar-32 photo lazyload" height="32" width="32" decoding="async" data-src="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=32&d=mm&r=g" data-srcset="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=64&#038;d=mm&#038;r=g 2x"><noscript><img alt="Claes Bengtsson" title="Claes Bengtsson" src="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=32&#038;d=mm&#038;r=g" srcset="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=64&#038;d=mm&#038;r=g 2x" class="avatar avatar-32 photo" height="32" width="32" decoding="async" data-eio="l"></noscript></span>Claes Bengtsson</a></span>		<span class="posted-in">
+Publicerat i <a href="/category/hjalp-tips/">hjälp &amp; tips</a>		</span>
+
+	</div>
+<!-- end of .post-meta -->
+
+
+				<div class="post-entry">
+
+					<div class="cell iartikel"><div id="toc_container" class="toc_white no_bullets">
+<p class="toc_title">I den h&auml;r artikeln</p>
+<ul class="toc_list">
+<li>
+<a href="#Nyckeln_till_ekonomisk_trygghet">Nyckeln till ekonomisk trygghet</a><ul><li><a href="#Forsta_din_betalningsformaga_battre">Förstå din betalningsförmåga bättre</a></li></ul>
+</li>
+<li>
+<a href="#Allt_om_betalningsformaga_for_lan">Allt om betalningsförmåga för lån</a><ul>
+<li><a href="#Betalningsformaga_for_lan">Betalningsförmåga för lån</a></li>
+<li><a href="#Faktorer_som_paverkar_betalningsformaga">Faktorer som påverkar betalningsförmåga</a></li>
+<li><a href="#Kortsiktig_och_langsiktig_betalningsformaga">Kortsiktig och långsiktig betalningsförmåga</a></li>
+<li><a href="#Bedomning_av_betalningsformaga">Bedömning av betalningsförmåga</a></li>
+</ul>
+</li>
+<li>
+<a href="#Ansoka_om_lan_och_kredit">Ansöka om lån och kredit</a><ul>
+<li><a href="#Betalningsformaga_vid_laneansokan">Betalningsförmåga vid låneansökan</a></li>
+<li><a href="#Vikten_av_stabil_inkomst">Vikten av stabil inkomst</a></li>
+<li><a href="#Risker_for_betalningsformaga">Risker för betalningsförmåga</a></li>
+<li><a href="#Hur_aterbetalningstid_paverkar">Hur återbetalningstid påverkar</a></li>
+</ul>
+</li>
+<li>
+<a href="#Innan_du_lanar">Innan du lånar</a><ul>
+<li><a href="#Fordelar_med_god_betalningsformaga">Fördelar med god betalningsförmåga</a></li>
+<li><a href="#Nackdelar_med_dalig_betalningsformaga">Nackdelar med dålig betalningsförmåga</a></li>
+</ul>
+</li>
+<li><a href="#Oka_tryggheten_med_inkomstforsakring">Öka tryggheten med inkomstförsäkring</a></li>
+</ul>
+</div></div>
+<div class="row">
+<div class="cell">
+<div class="cinfo1">
+<div class="gem cin"></div>
+<p><strong>Betalningsförmågan</strong> är helt centralt vid låneansökningar, där inkomst, kostnader och ekonomisk stabilitet vägs samman. </p>
+<p>En grundlig förståelse för dessa faktorer möjliggör att uppfylla långivarnas krav, vilket i sin tur öppnar dörrar till fördelaktiga lånevillkor och framgångsrika låneansökningar. </p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="cell right">
+<picture><source type="image/webp" data-srcset="/media/2023/05/betalningsformaga-lan.png.webp"><img fetchpriority="high" decoding="async" src="/media/2023/05/betalningsformaga-lan.png" alt="Betalningsförmåga för lån" width="300" height="300" data-eio="p"></picture>
+</div>
+</div>
+<div class="rw"></div>
+	
+	 <script>function togglelement() { 
+            const paragraph = document. 
+                getElementById('myparagraph'); 
+            if (paragraph.style.display === 'none') { 
+                paragraph.style.display = "block"; 
+            } 
+            else { 
+                paragraph.style.display = "none" 
+            } 
+        }</script> 
+
+<style>dl.faq button {
+  margin: 0;
+  margin-top: 16px;
+  padding: 4px 8px;
+  font-weight: bold;
+  font-size: 110%;
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+	
+dl dd {
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5em;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #777;
+}
+
+dl.faq .desc {
+  margin: 0;
+  margin-top: 0.25em;
+  padding: 0.25em;
+  font-size: 110%;
+  display: none;
+  background-color: #fed;
+}
+
+dl.faq button:hover,
+dl.faq button:focus {
+  padding: 2px 6px;
+  background-color: #def;
+  border: 2px solid #005a9c;
+  cursor: pointer;
+}
+
+dl.faq button[aria-expanded="false"]::before {
+  content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' style='forced-color-adjust: auto;'%3E%3Cpolygon points='1 1, 1 11, 8 6' fill='currentcolor' stroke= 'currentcolor' /%3E%3C/svg%3E%0A");
+  position: relative;
+  left: -2px;
+}
+
+dl.faq button[aria-expanded="true"]::before {
+  content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' style='forced-color-adjust: auto;'%3E%3Cpolygon points='1 1, 11 1, 6 8' fill='currentcolor' stroke= 'currentcolor' /%3E%3C/svg%3E ");
+  position: relative;
+  left: -4px;
+  top: 2px;
+}
+	.hundra {width:100%; margin-top:20px;}	
+	#myparagraph {display:none;}</style>
+
+
+	
+
+<div class="cell faqk fss"> 
+ 	  Frågor och Svar	  [<button onclick="togglelement()">Visa fler</button>]
+		 	
+<dl class="faq"> 
+ 
+	 
+	
+  <div id="myparagraph"> 
+	
+ 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 2_desc">
+Vad innebär betalningsförmåga?</button></dt>
+<dd><div id="faq 2_desc" class="desc">Betalningsförmåga avser en persons eller hushålls kapacitet att återbetala lån inom avtalad tid. Det handlar om en kombination av inkomst, utgifter, befintliga skulder och ekonomisk stabilitet som långivare bedömer för att avgöra kreditworthiness.</div></dd>	
+		 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 3_desc">
+Hur bedömer långivare betalningsförmåga?</button></dt>
+<dd><div id="faq 3_desc" class="desc">Långivare bedömer betalningsförmåga genom att analysera flera faktorer, inklusive inkomstnivå, anställningstyp, befintliga skulder, och utgifter. De utför också en kreditupplysning för att se tidigare betalningshistorik och kreditbetyg.</div></dd>	
+		 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 4_desc">
+Kan dålig kreditvärdighet påverka betalningsförmågan?</button></dt>
+<dd><div id="faq 4_desc" class="desc">Ja, dålig kreditvärdighet kan negativt påverka bedömningen av en persons betalningsförmåga. Om någon har en historia av missade betalningar eller skulder kan långivare se dem som en högre risk och kan därför vara ovilliga att bevilja lån.</div></dd>	
+		 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 5_desc">
+Vilka faktorer påverkar betalningsförmågan mest?</button></dt>
+<dd><div id="faq 5_desc" class="desc">De faktorer som mest påverkar betalningsförmågan inkluderar inkomstens stabilitet, storleken på fasta kostnader, antal befintliga lån och krediter samt om det finns några återkommande utgifter eller oförutsedda kostnader i budgeten.</div></dd>	
+		 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 6_desc">
+Hur kan man förbättra sin betalningsförmåga?</button></dt>
+<dd><div id="faq 6_desc" class="desc">Man kan förbättra sin betalningsförmåga genom att öka inkomsten, minska onödiga utgifter och skapa en budget som tydliggör alla kostnader. Att betala av skulder i tid och undvika att ta nya lån kan också bidra till förbättrad betalningsförmåga.</div></dd>	
+		 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 7_desc">
+Vad är skillnaden mellan kortsiktig och långsiktig betalningsförmåga?</button></dt>
+<dd><div id="faq 7_desc" class="desc">Kortsiktig betalningsförmåga avser förmågan att hantera och återbetala skulder på kort sikt, medan långsiktig betalningsförmåga fokuserar på stabiliteten och förmågan att återbetala större lån över en längre tidsperiod. Båda är viktiga vid låneansökan.</div></dd>	
+		 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 8_desc">
+Hur påverkar inkomstkällan betalningsförmågan?</button></dt>
+<dd><div id="faq 8_desc" class="desc">Inkomstkällan har stor betydelse för betalningsförmågan. En stabil och förutsägbar inkomst från fast anställning anses mer positivt än inkomst från tillfälliga eller osäkra källor, såsom frilansarbete eller korttidsanställningar, vilket kan öka risken för långivare.</div></dd>	
+		 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 9_desc">
+Vad händer om betalningsförmågan förändras efter att ett lån har beviljats?</button></dt>
+<dd><div id="faq 9_desc" class="desc">Om betalningsförmågan förändras negativt efter att ett lån har beviljats, kan låntagaren få svårigheter att följa de avtalade betalningarna. Detta kan leda till avgifter, högre räntor eller till och med betalningsanmärkningar som påverkar kreditvärdigheten negativt.</div></dd>	
+		 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 10_desc">
+Kan man ansöka om lån med svag betalningsförmåga?</button></dt>
+<dd><div id="faq 10_desc" class="desc">Det är möjligt att ansöka om lån med svag betalningsförmåga, men chansen att få lånet beviljat är låg. Långivare kommer sannolikt att begära mer säkerheter eller högre räntor för att kompensera den upplevda risken.</div></dd>	
+		 
+<dt><button type="button" aria-expanded="false" aria-controls="faq 11_desc">
+Vilka åtgärder kan vidtas om man misslyckas med återbetalningen?</button></dt>
+<dd><div id="faq 11_desc" class="desc">Om man misslyckas med återbetalningen av ett lån är det viktigt att omedelbart kontakta långivaren för att diskutera möjliga lösningar, som att omstrukturera lånet eller skapa en betalningsplan. I vissa fall kan även skuldombud eller ekonomisk rådgivning vara till hjälp.</div></dd>	
+		 
+	  
+	  
+	
+		</div>
+		</dl>
+
+
+
+	
+<script type="application/ld+json">{
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [
+					{
+				"@type": "Question",
+				"name": "Vad innebär betalningsförmåga?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Betalningsförmåga avser en persons eller hushålls kapacitet att återbetala lån inom avtalad tid. Det handlar om en kombination av inkomst, utgifter, befintliga skulder och ekonomisk stabilitet som långivare bedömer för att avgöra kreditworthiness."
+									}
+			}
+				,			{
+				"@type": "Question",
+				"name": "Hur bedömer långivare betalningsförmåga?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Långivare bedömer betalningsförmåga genom att analysera flera faktorer, inklusive inkomstnivå, anställningstyp, befintliga skulder, och utgifter. De utför också en kreditupplysning för att se tidigare betalningshistorik och kreditbetyg."
+									}
+			}
+				,			{
+				"@type": "Question",
+				"name": "Kan dålig kreditvärdighet påverka betalningsförmågan?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Ja, dålig kreditvärdighet kan negativt påverka bedömningen av en persons betalningsförmåga. Om någon har en historia av missade betalningar eller skulder kan långivare se dem som en högre risk och kan därför vara ovilliga att bevilja lån."
+									}
+			}
+				,			{
+				"@type": "Question",
+				"name": "Vilka faktorer påverkar betalningsförmågan mest?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "De faktorer som mest påverkar betalningsförmågan inkluderar inkomstens stabilitet, storleken på fasta kostnader, antal befintliga lån och krediter samt om det finns några återkommande utgifter eller oförutsedda kostnader i budgeten."
+									}
+			}
+				,			{
+				"@type": "Question",
+				"name": "Hur kan man förbättra sin betalningsförmåga?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Man kan förbättra sin betalningsförmåga genom att öka inkomsten, minska onödiga utgifter och skapa en budget som tydliggör alla kostnader. Att betala av skulder i tid och undvika att ta nya lån kan också bidra till förbättrad betalningsförmåga."
+									}
+			}
+				,			{
+				"@type": "Question",
+				"name": "Vad är skillnaden mellan kortsiktig och långsiktig betalningsförmåga?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Kortsiktig betalningsförmåga avser förmågan att hantera och återbetala skulder på kort sikt, medan långsiktig betalningsförmåga fokuserar på stabiliteten och förmågan att återbetala större lån över en längre tidsperiod. Båda är viktiga vid låneansökan."
+									}
+			}
+				,			{
+				"@type": "Question",
+				"name": "Hur påverkar inkomstkällan betalningsförmågan?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Inkomstkällan har stor betydelse för betalningsförmågan. En stabil och förutsägbar inkomst från fast anställning anses mer positivt än inkomst från tillfälliga eller osäkra källor, såsom frilansarbete eller korttidsanställningar, vilket kan öka risken för långivare."
+									}
+			}
+				,			{
+				"@type": "Question",
+				"name": "Vad händer om betalningsförmågan förändras efter att ett lån har beviljats?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Om betalningsförmågan förändras negativt efter att ett lån har beviljats, kan låntagaren få svårigheter att följa de avtalade betalningarna. Detta kan leda till avgifter, högre räntor eller till och med betalningsanmärkningar som påverkar kreditvärdigheten negativt."
+									}
+			}
+				,			{
+				"@type": "Question",
+				"name": "Kan man ansöka om lån med svag betalningsförmåga?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Det är möjligt att ansöka om lån med svag betalningsförmåga, men chansen att få lånet beviljat är låg. Långivare kommer sannolikt att begära mer säkerheter eller högre räntor för att kompensera den upplevda risken."
+									}
+			}
+				,			{
+				"@type": "Question",
+				"name": "Vilka åtgärder kan vidtas om man misslyckas med återbetalningen?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Om man misslyckas med återbetalningen av ett lån är det viktigt att omedelbart kontakta långivaren för att diskutera möjliga lösningar, som att omstrukturera lånet eller skapa en betalningsplan. I vissa fall kan även skuldombud eller ekonomisk rådgivning vara till hjälp."
+									}
+			}
+					 
+	]	}</script>
+ 
+		<script>/*
+ *   This content is licensed according to the W3C Software License at
+ *   https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
+ *
+ *   File:   disclosure-button.js
+ *
+ *   Desc:   Disclosure button widget that implements ARIA Authoring Best Practices
+ */
+
+'use strict';
+
+/*
+ *   @constructorDisclosureButton
+ *
+ *
+ */
+class DisclosureButton {
+  constructor(buttonNode) {
+    this.buttonNode = buttonNode;
+    this.controlledNode = false;
+
+    var id = this.buttonNode.getAttribute('aria-controls');
+
+    if (id) {
+      this.controlledNode = document.getElementById(id);
+    }
+
+    this.buttonNode.setAttribute('aria-expanded', 'false');
+    this.hideContent();
+
+    this.buttonNode.addEventListener('click', this.onClick.bind(this));
+    this.buttonNode.addEventListener('focus', this.onFocus.bind(this));
+    this.buttonNode.addEventListener('blur', this.onBlur.bind(this));
+  }
+
+  showContent() {
+    if (this.controlledNode) {
+      this.controlledNode.style.display = 'block';
+    }
+  }
+
+  hideContent() {
+    if (this.controlledNode) {
+      this.controlledNode.style.display = 'none';
+    }
+  }
+
+  toggleExpand() {
+    if (this.buttonNode.getAttribute('aria-expanded') === 'true') {
+      this.buttonNode.setAttribute('aria-expanded', 'false');
+      this.hideContent();
+    } else {
+      this.buttonNode.setAttribute('aria-expanded', 'true');
+      this.showContent();
+    }
+  }
+
+  /* EVENT HANDLERS */
+
+  onClick() {
+    this.toggleExpand();
+  }
+
+  onFocus() {
+    this.buttonNode.classList.add('focus');
+  }
+
+  onBlur() {
+    this.buttonNode.classList.remove('focus');
+  }
+}
+
+/* Initialize Hide/Show Buttons */
+
+window.addEventListener(
+  'load',
+  function () {
+    var buttons = document.querySelectorAll(
+      'button[aria-expanded][aria-controls]'
+    );
+
+    for (var i = 0; i < buttons.length; i++) {
+      new DisclosureButton(buttons[i]);
+    }
+  },
+  false
+);
+	</script>
+</div>
+<div class="rw"></div>
+<div class="row">
+<div class="lan">
+<h2><span id="Nyckeln_till_ekonomisk_trygghet">
+<div class="unskew">Nyckeln till ekonomisk trygghet</div>
+</span></h2>
+<div class="cell">
+<img decoding="async" style="width: 30px; height: 30px; margin: 5px;  padding: 10px; background: #e8e8e8;  border-radius: 100%/10px 10px 10px 10px;" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Förklaring för betalningsförmåga." data-src="/media/glodlampa.png" class="lazyload" data-eio-rwidth="90" data-eio-rheight="90"><noscript><img decoding="async" style="width: 30px; height: 30px; margin: 5px;  padding: 10px; background: #e8e8e8;  border-radius: 100%/10px 10px 10px 10px;" src="/media/glodlampa.png" alt="Förklaring för betalningsförmåga." data-eio="l"></noscript>
+<p></p>
+<p>Att navigera i låneprocessens snåriga värld kan kännas både utmanande och skrämmande.  För många är termen &#8221;betalningsförmåga&#8221; en central aspekt av denna resa, en avgörande faktor som långivare väger tungt. </p>
+<blockquote><p>En solid betalningsförmåga är nyckeln till en trygg och stabil ekonomisk framtid</p></blockquote>
+<p>Det handlar inte bara om att ha bra inkomster; det rör sig också om en djupgående analys av ens utgifter och livsomständigheter. </p>
+<p> Genom att förstå sin egen ekonomiska verklighet kan låntagare navigera i finansvärlden med större självförtroende. </p>
+<p>Delar som anställningsform, boendesituation och övriga skulder är också avgörande för att bedöma betalningsförmåga. </p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="cell">
+<h3><span id="Forsta_din_betalningsformaga_battre">Förstå din betalningsförmåga bättre</span></h3>
+<p> Att ha en klar överblick över dessa faktorer gör det möjligt för individer att se hur de kan förbättra sin finansiella situation och öka sina chanser till godkännande av lån. </p>
+<p>Att förstå de olika aspekterna av kortsiktig och långsiktig betalningsförmåga är ytterst väsentligt. </p>
+<p> Med denna kunskap kan man inte endast optimera sin låneansökan utan också anpassa sin livsstil för att bättre hantera ekonomiska åtaganden. </p>
+<p>Genom att aktivt arbeta med sin betalningsförmåga och bygga en stabil grund kan individer försäkra sig om sin ekonomiska trygghet och framtida möjligheter. </p>
+</div>
+</div>
+<div class="rw"></div>
+<div class="lan">
+<h2><span id="Allt_om_betalningsformaga_for_lan">
+<div class="unskew">Allt om betalningsförmåga för lån</div>
+</span></h2>
+</div>
+<div class="cell">
+<h3><span id="Betalningsformaga_for_lan">Betalningsförmåga för lån</span></h3>
+<p>Betalningsförmåga avser låntagarens kapacitet att återbetala skuld inom avtalad tid. Denna förmåga grundar sig på faktorer som inkomst, anställningsform, boendesituation samt låne- och familjeåtaganden. En god betalningsförmåga är avgörande vid låneansökan, oavsett om det rör sig om billån, bolån eller kreditkort. Långivare utvärderar den ekonomiska stabiliteten för att avgöra låntagarens möjligheter att följa en återbetalningsplan.</p>
+<p>Långivare fokuserar på både kortsiktig och långsiktig betalningsförmåga. Den kortsiktiga betalningsförmågan handlar om likviditet, det vill säga om man kan betala av skulder med tillgängliga medel just nu. Det är särskilt relevant vid korta skulder, som kreditkortsskulder. Att kunna betala hela kreditkortsräkningen i tid indikerar god kortsiktig betalningsförmåga.</p>
+<p>Den långsiktiga betalningsförmågan, även kallad soliditet, bedömer ens kapacitet att återbetala större lån över tid. I denna bedömning beaktas även om det finns utrymme i budgeten för oförutsedda händelser, såsom sjukdom eller arbetslöshet. Om en person har god betalningsförmåga, innebär det att lånet kan betalas i tid med ytterligare marginalar för oförutsedda utgifter.</p>
+<p>Faktorer som påverkar betalningsförmågan inkluderar:</p>
+<ul>
+<li>Deklarerad inkomst</li>
+<li>Anställningstyp</li>
+<li>Övriga lån och krediter</li>
+</ul>
+<p>Vid låneansökan utvärderar långivaren <a href="/kreditinformation/">kreditinformation</a> för att förstå ens ekonomi och besluta om lånets beviljande. Det är därför viktigt att noggrant räkna ihop inkomster och utgifter för att se om betalningsförmågan räcker till för planerade utgifter. I jämförelse kan låntagarens ekonomiska stabilitet fungera som en indikator för framtida betalningar och risker.</p>
+</div>
+<div class="cell">
+<h3><span id="Faktorer_som_paverkar_betalningsformaga">Faktorer som påverkar betalningsförmåga</span></h3>
+<p>Bedömningen av din betalningsförmåga beror på tre huvudsakliga faktorer: årsinkomst, fasta kostnader och KALP (kvar att leva på). Årsinkomsten är avgörande, och normalt räknas månadsinkomsten som en löpande inkomstkälla. Fasta kostnader, som utgifter för boende och andra skulder, måste också beaktas. KALP beräknas genom att subtrahera alla fasta kostnader från den totala inkomsten, vilket visar hur mycket man har kvar att leva på varje månad.</p>
+<p>För att tydliggöra detta kan vi se på följande exempel:</p>
+<table>
+<tr>
+<th>Post</th>
+<th>Belopp (SEK)</th>
+</tr>
+<tr>
+<td>Månadsinkomst</td>
+<td>30,000</td>
+</tr>
+<tr>
+<td>Fasta kostnader (hyra, lån etc.)</td>
+<td>20,000</td>
+</tr>
+<tr>
+<td>KALP</td>
+<td>10,000</td>
+</tr>
+</table>
+<p>Det är viktigt att notera att kapital i aktier eller konton inte påverkar betalningsförmågan. Utan en stabil inkomst kan även stora besparingar innebära att du bedöms ha en svag betalningsförmåga. Betalningsförmågan kan delas upp i kortsiktig och långsiktig. Kortsiktig betalningsförmåga handlar om din omedelbara likviditet, medan långsiktig <a href="/betalningsformaga/">betalningsförmåga</a> fokuserar på din kapacitet att återbetala lån över tid.</p>
+<p>Långivare gör en <a href="/kreditkontroll/">kreditkontroll</a> för att få en helhetsbild av din ekonomiska situation. Detta inkluderar analys av deklarerad inkomst, anställningsform samt befintliga lån och krediter. För att säkerställa att lån beviljas till de som har god betalningsförmåga, vägs ovanstående faktorer samman i bedömningen.</p>
+</div>
+<div class="cell">
+<h3><span id="Kortsiktig_och_langsiktig_betalningsformaga">Kortsiktig och långsiktig betalningsförmåga</span></h3>
+<p>Kortsiktig betalningsförmåga handlar om din likviditet, vilket innebär din förmåga att omedelbart betala av skulder med de pengar du har tillgängliga. Detta är särskilt relevant för kortsiktiga skulder, som <a href="/kreditkort/">kreditkort</a> och mindre lån. Om du kan betala hela kreditkortsskulden vid slutet av månaden visar det på god kortsiktig betalningsförmåga. Faktorer som påverkar kortsiktig betalningsförmåga inkluderar månadsinkomst och utgifter, liksom plötsliga förändringar i ekonomin såsom sjukdom eller förlust avarbete.</p>
+<p>Å andra sidan avser långsiktig betalningsförmåga din kapacitet att återbetala skulder över en längre tidsperiod. Denna förmåga är avgörande när du ansöker om större lån, såsom bolån eller privatlån, där långivaren undersöker din långsiktiga betalningsförmåga för att säkerställa att du kan hantera återbetalningarna i enlighet med avtalet.</p>
+<p>Skillnaden mellan dessa två typer av betalningsförmåga är viktig att förstå. Kortsiktig betalningsförmåga mäter hur snabbt du kan betala av en skuld, medan långsiktig betalningsförmåga handlar om stabiliteten i din ekonomi över tid. Detta kan ses i följande tabell:</p>
+<table>
+<tr>
+<th>Typ av betalningsförmåga</th>
+<th>Beskrivning</th>
+</tr>
+<tr>
+<td>Kortsiktig</td>
+<td>Förmåga att betala skulder med omedelbar tillgång till likviditet</td>
+</tr>
+<tr>
+<td>Långsiktig</td>
+<td>Förmåga att planera och återbetala skulder över tid</td>
+</tr>
+</table>
+<p>Det är också viktigt att notera att långivare ser till din kreditinformation när de gör en bedömning av din betalningsförmåga. Din kreditvärdighet, som inkluderar faktorer som betalningsanmärkningar och tidigare krediter, ger dem en bild av din ekonomiska ansvarighet. En person med dålig kreditvärdighet kan fortfarande ha hög betalningsförmåga om de hanterar sina aktuella skulder korrekt.</p>
+<p>Att förstå skillnaden mellan kort- och långsiktig betalningsförmåga och kreditinformation är centralt för att kunna göra informerade beslut när man överväger olika typer av <a href="/laneavtal/">låneavtal</a>.</p>
+</div>
+<div class="cell">
+<h3><span id="Bedomning_av_betalningsformaga">Bedömning av betalningsförmåga</span></h3>
+<p>Bedömningen av din betalningsförmåga är central för banker och långivare när du ansöker om lån. Denna bedömning avgör om du har möjlighet att återbetala lånet som planerat och om du är en attraktiv kandidat för finansiering. Långivare inleder med att genomföra en <a href="/sa-fungerar-kreditupplysning/">kreditupplysning</a> som ger en sammanställning av din inkomst, boende, eventuella lån och familjesituation.</p>
+<p>Efter att upplysningen tagits fram görs en KALP, vilket står för kvar att leva på-kalkyl. Denna kalkyl syftar till att fastställa om du kan täcka både grundläggande levnadskostnader och lånekostnader. Här följer exempel på kostnader som kan ingå i denna kalkyl:</p>
+<ul>
+<li>Bjuda på mat och dryck</li>
+<li>Transport och resor</li>
+<li>Hälsovård och medicin</li>
+<li>Övriga räkningar (el, vatten etc.)</li>
+</ul>
+<p>Vidare utvärderar långivaren potentialen för förändringar i dina ekonomiska omständigheter. Institutionerna vill säkerställa att du har en ekonomisk buffert som gör att du kan klara av både grundläggande kostnader och lån även vid inkomstminskning. Även faktorer som ålder kan påverka bedömningen; om du närmar dig pension kan det påverka din kreditvärdighet negativt.</p>
+<p>Långivare samlar allt detta för att hitta rätt balans för <a href="/laneprocess/">låneprocess</a> och <a href="/vad-bestammer-rantan-pa-lan/">bestämmer låneräntan</a> utifrån din ekonomiska stabilitet. En stark betalningsförmåga innebär att du kan upprätthålla betalningar även vid oförutsedda händelser, till exempel om någon i hushållet blir arbetslös. Att noggrant redogöra för din ekonomiska situation är avgörande när du ansöker om lån.</p>
+</div>
+<div class="cell ansokan">
+<h2><span id="Ansoka_om_lan_och_kredit">Ansöka om lån och kredit</span></h2>
+<p>Betalningsförmåga är en avgörande faktor när du ansöker om lån eller kredit, oavsett om det handlar om <a href="/billan-med-dalig-uc/">billån</a>, bolån eller kreditkort. Långivaren granskar din betalningsförmåga för att bedöma om du, baserat på din nuvarande och framtida ekonomiska situation, kan klara av återbetalning av lån enligt den överenskomna återbetalningsplanen.</p>
+<p>För att optimera din ansökan är det bra att ha en klar överblick över din ekonomi. Listor över inkomster, fasta kostnader och eventuell befintlig skuld kan hjälpa dig att framhäva din betalningsförmåga. När du ansöker, se till att alla uppgifter är korrekta och uppdaterade: detta inkluderar din anställningsform, familjesituation och nuvarande skulder. Med rätt information kan långivaren få en bättre förståelse för din ekonomiska stabilitet.</p>
+<p>Innan du går vidare med ansökan, överväg att jämföra olika lån och erbjudanden. Det är oftast klokt att ha ett par olika alternativ på bordet för att hitta det bästa erbjudandet. Nedan listas några viktiga punkter att tänka på när du ansöker:</p>
+<ul>
+<li>Gör en fullständig analyser av din nuvarande ekonomi</li>
+<li>Jämför räntor och avgifter hos olika långivare</li>
+<li>Samla alla nödvändiga dokument som styrker din inkomst</li>
+<li>Var transparent om din ekonomiska situation</li>
+</ul>
+<p>Genom att ha en solid grund i din ekonomi och korrekt information ökar du sannolikheten för att få det lån du behöver. Att ansöka om lån bör alltid göras med omsorg och bra planering för bästa resultat.</p>
+</div>
+<div class="cell">
+<h3><span id="Betalningsformaga_vid_laneansokan">Betalningsförmåga vid låneansökan</span></h3>
+<p>Betalningsförmåga är en avgörande faktor för banker och långivare när du ansöker om <a href="/">lån</a>. Denna indikator visar om du kan återbetala lånet enligt avtal och avgör din attraktivitet som lånekandidat. Långivare genomför en kreditupplysning för att kartlägga din ekonomiska situation i detalj.</p>
+<p>Med hjälp av KALP-kalkylen bedömer banken om det finns tillräckliga medel kvar efter att ha täckt levnadskostnader och lånebetalningar. Långivare använder ofta schablonbelopp från Konsumentverket för att bestämma de grundläggande kostnaderna. Detta ger dem en indikation på hur mycket du egentligen har kvar att leva på varje månad.</p>
+<p>Även din ålder och nuvarande ekonomiska förutsättningar spelar en stor roll i bedömningen. Långivare ser efter mönster som kan tyda på ökad risk för betalningssvårigheter, till exempel om du är över en viss ålder eller om du har en osäker anställning. För att öka dina chanser att få lånet beviljat är det viktigt att du redovisar korrekt och fullständig kreditinformation i din ansökan. Detta inkluderar nice details om din ekonomiska situation, såsom anställningsform och eventuella övriga skulder.</p>
+<p>Ett bra tillskott är att ha en referens från en tidigare långivare för att stärka din profil. Genom att noggrant förbereda din låneansökan och ha en tydlig bild av din betalningsförmåga ökar du chansen till ett framgångsrikt resultat i låneprocessen. I korthet, all information bör spegla din true financial status så att långivaren ser dig som en låg risk.</p>
+</div>
+<div class="cell">
+<h3><span id="Vikten_av_stabil_inkomst">Vikten av stabil inkomst</span></h3>
+<p>En stabil inkomst är avgörande för att upprätthålla en god betalningsförmåga, vilket är nödvändigt vid ansökan om lån, såsom <a href="/dromlan/">drömlån</a> för olika livsmål. God betalningsförmåga innebär att du har möjlighet att betala tillbaka lånet i tid, samt att du har en ekonomisk marginal som skyddar dig mot oförutsedda händelser, som sjukdom eller arbetslöshet.</p>
+<p>När långivare bedömer din betalningsförmåga, tar de hänsyn till din inkomstkälla. En fast anställning eller pension ger en tryggare inkomst än ett tillfälligt vikariat, vilket minskar risken för långivaren. Utan en stabil inkomst kan det vara svårt att uppfylla kraven för ett lån, och det kan leda till avslag.</p>
+<p>Det är också viktigt att tänka på att inkomstnivån bör anpassas till dina utgifter. Detta kallas ibland för din &#8221;skuldkvot,&#8221; vilket är en proportion mellan din inkomst och dina månatliga skulder. En hög skuldkvot kan avskräcka långivare från att bevilja lån. </p>
+<p>Här är några strategier för att stärka din betalningsförmåga:</p>
+<ul>
+<li>Öka din inkomst genom vidareutbildning eller karriärutveckling.</li>
+<li>Reducera dina fasta kostnader genom att omförhandla avtal.</li>
+<li>Ha en buffert på sparkontot för oförutsedda utgifter.</li>
+<li>Överväga långsiktiga investeringar för att öka inkomsterna.</li>
+</ul>
+<p>Att utforska olika <a href="/lanelosningar/">kreditlösningar</a> kan hjälpa dig att hitta den bästa vägen för att nå dina ekonomiska mål, samtidigt som du skyddar din betalningsförmåga. Med en solid och stabil inkomst kan du skapa en trygg finansiering för dina drömmar och livsmål.</p>
+</div>
+<div class="cell">
+<h3><span id="Risker_for_betalningsformaga">Risker för betalningsförmåga</span></h3>
+<p>Vid bedömning av betalningsförmåga uppskattar banken om du har tillräckliga marginaler i din ekonomi för att hantera oförutsedda händelser. Dessa händelser kan påverka din förmåga att återbetala lån, vilket kan leda till svårigheter om ekonomin försämras. Det är viktigt att långivarna ser att du har en buffert för både grundläggande levnadskostnader och lånebetalningar.</p>
+<p>Långivaren tittar också på hur dina ekonomiska förutsättningar kan förändras över tid. Till exempel, om du börjar närma dig pension kan detta ses som en riskfaktor, eftersom inkomsten ofta minskar vid pensionering. En svag betalningsförmåga innebär att det inte finns någon säkerhetsmarginal. I sådana fall kan oförutsedda händelser, såsom sjukdom eller arbetslöshet, göra det omöjligt att betala skulder i tid.</p>
+<p>Ökande <a href="/ranta/">räntor</a> är en annan viktig faktor som kan påverka din betalningsförmåga negativt. Om dina kostnader ökar, oavsett om det handlar om räntesatser eller oväntade utgifter, kan det snabbt bli en ekonomisk belastning. Här kan <a href="/flexibla-laneformer/">flexibla lån</a>, vilka anpassar sig efter din ekonomiska situation, vara en lösning. </p>
+<p>Det är avgörande att noggrant utvärdera hur dessa faktorer kan påverka din framtida betalningsförmåga innan du tar ett lån. Genom att vara medveten om dessa risker och vidta proaktiva åtgärder kan du stärka din ekonomiska stabilitet och därigenom förbättra dina chanser att enkelt hantera lånebetalningar även i tider av osäkerhet. Att framhålla din långsiktiga kapacitet att upprätthålla betalningar under olika omständigheter kan göra stor skillnad i absolut överenskommelse.</p>
+</div>
+<div class="cell">
+<h3><span id="Hur_aterbetalningstid_paverkar">Hur återbetalningstid påverkar</span></h3>
+<p>Långsiktig betalningsförmåga, även kallad soliditet, hänvisar till din kapacitet att återbetala en skuld inom en specifik tidsram. När du ansöker om större lån, som lån till bostad eller privatlån, bedömer banken noggrant din långsiktiga betalningsförmåga. De vill försäkra sig om att du har tillräckligt med ekonomiskt utrymme för att klara av både lånekostnader och övriga levnadskostnader.</p>
+<p>Återbetalningstiden spelar en central roll i bedömningen av din betalningsförmåga. Längden på återbetalningen och hur mycket du lånar påverkar månadskostnaderna. En längre återbetalningstid kan innebära lägre månatliga betalningar, vilket kan göra det lättare att hantera ekonomin. Men det innebär också att du betalar mer i räntor över tid. Det är viktigt att hitta en balans som passar din ekonomiska situation.</p>
+<p>För att illustrera hur olika återbetalningstider påverkar kostnaden kan nedan ses ett exempel:</p>
+<table>
+<tr>
+<th>Återbetalningstid (år)</th>
+<th>Månadsbetalning (SEK)</th>
+</tr>
+<tr>
+<td>15</td>
+<td>8,000</td>
+</tr>
+<tr>
+<td>20</td>
+<td>6,500</td>
+</tr>
+<tr>
+<td>30</td>
+<td>4,000</td>
+</tr>
+</table>
+<p>Att låna till drömmen om en bostad är en stor finansiell åtagande. För att detta ska vara möjligt krävs att du har en stabil inkomst och en god förståelse för din nuvarande och framtida ekonomiska situation. En god långsiktig betalningsförmåga handlar inte bara om nuvarande inkomst, utan även om hur du förväntar dig att din ekonomi ser ut under lånets löptid.</p>
+<p>Genom att ha en klar bild av dina finansiella förutsättningar kan du göra mer informerade beslut när du ansöker om lån. Att sätta upp realistiska budgetar och rådgöra med ekonomiska rådgivare kan också hjälpa till att optimera dina framtida betalningsförmåga.</p>
+</div>
+<div class="cell avslut">
+<h2><span id="Innan_du_lanar">Innan du lånar</span></h2>
+<p>Innan du lånar är det viktigt att du har en god förståelse för din ekonomiska situation. Du kan förbättra din betalningsförmåga genom att öka din inkomst och/eller minska dina boendekostnader. Att ha en stabil inkomst är avgörande för att kunna hantera framtida lånebetalningar utan stress. Eftersom Konsumentverket beräknar levnadskostnader baserat på antalet personer i hushållet, kan det vara svårt att påverka dessa kostnader direkt.</p>
+<p>Du bör också ta en titt på din kreditinformation noggrant och åtgärda eventuella felaktigheter. Du kan också förbättra din kreditvärdighet genom att betala av befintliga skulder och alltid betala räkningar i tid. Här följer några strategier som kan hjälpa dig:</p>
+<ul>
+<li>Gör en budget för dina inkomster och utgifter</li>
+<li>Betala alltid räkningar i tid för att undvika kreditnedsättning</li>
+<li>Överväg att samla skulder för att sänka månadskostnaderna</li>
+<li>Undvik att ta fler lån kort innan du ansöker</li>
+</ul>
+<p>När du planerar att låna, överväg olika alternativ och typer av lån. Flexibla lån kan vara en bra lösning för dem som vill justera sina betalningar baserat på förändrade ekonomiska omständigheter. Dessa lån ger dig möjlighet att justera lånebeloppet och återbetalningstiden, vilket kan underlätta hanteringen av oväntade utgifter.</p>
+<p>Innan du ansöker om lån, se till att du har en tydlig budget för hur mycket du kan avsätta för månatliga betalningar. En realistisk budget hjälper dig att undvika att låna mer än du har råd med, vilket kan leda till finansiell stress. Genom att noggrant överväga dessa faktorer innan du lånar kan du göra ett informerat val som gynnar din långsiktiga ekonomiska hälsa.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row fornackdel">
+<div class="cell positiv">
+<h3><span id="Fordelar_med_god_betalningsformaga">Fördelar med god betalningsförmåga</span></h3>
+<p><img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Fördelar med betalningsförmåga" data-src="/media/thumbs_up.png" class="lazyload" data-eio-rwidth="72" data-eio-rheight="100"><noscript><img decoding="async" src="/media/thumbs_up.png" alt="Fördelar med betalningsförmåga" data-eio="l"></noscript></p>
+<ul>
+<li>
+        Ökad låneansökningsframgång: En solid betalningsförmåga ökar chansen att få lån beviljade. Långivare ser på en stark ekonomisk bakgrund som ett tecken på ansvar och förmåga att hantera skulder.
+    </li>
+<li>
+        Bättre lånevillkor: Genom att visa god betalningsförmåga kan du förhandla fram mer fördelaktiga räntor och villkor. Detta kan leda till minskade kostnader över tid och mer pengar kvar i plånboken.
+    </li>
+<li>
+        Ökad kreditvärdighet: En stabil betalningsförmåga bidrar positivt till din kreditvärdighet. Detta kan öppna dörrar för framtida lån och krediter, vilket ger dig fler resurser och alternativ.
+    </li>
+<li>
+        Förmåga att hantera oförutsedda utgifter: Med en god betalningsförmåga har du en buffert för oförutsedda händelser som sjukdom eller arbetslöshet. Det ger en känsla av säkerhet och trygghet i en osäker ekonomisk värld.
+    </li>
+<li>
+        Smidigare ekonomisk planering: Kännedom om din betalningsförmåga gör det lättare att planera för framtiden. Du kan skapa en realistisk budget och planera större inköp som bil eller bostad utan att riskera din ekonomiska stabilitet.
+    </li>
+<li>
+        Minskar ekonomisk stress: Att ha kontroll över sin betalningsförmåga minskar oron för ekonomiska åtaganden. Detta frigör mental energi och tid som kan investeras i mer produktiva aktiviteter.
+    </li>
+<li>
+        Styrka i förhandlingar: Med en stark betalningsförmåga kan du framhäva dig i förhandlingar om lån och kredit. Du kan vara mer självsäker när du diskuterar villkor och räntor, vilket kan leda till bättre avtal.
+    </li>
+<li>
+        Längre återbetalningstider: Stark betalningsförmåga gör det mer sannolikt att långivare erbjuder längre återbetalningstider. Detta kan bidra till lägre månatliga utgifter och en mer hanterbar skuld över tid.
+    </li>
+<li>
+        Ökad möjlighet till investeringar: Med en stabil ekonomisk grund kan du lättare avsätta pengar för investeringar. Att investera i aktier eller fastigheter kan ge avkastning som ytterligare förbättrar din ekonomiska situation.
+    </li>
+<li>
+        Bättre livskvalitet: En trygg och stabil ekonomi bidrar till en bättre livskvalitet. Du kan fokusera på dina intressen och drömmar istället för att oroa dig för ekonomiskt knappa lägen.
+    </li>
+</ul>
+</div>
+</div>
+<div class="row fornackdel">
+<div class="cell negativ">
+<h3><span id="Nackdelar_med_dalig_betalningsformaga">Nackdelar med dålig betalningsförmåga</span></h3>
+<p><img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nackdelar med betalningsförmåga" data-src="/media/thumbs_down.png" class="lazyload" data-eio-rwidth="72" data-eio-rheight="100"><noscript><img decoding="async" src="/media/thumbs_down.png" alt="Nackdelar med betalningsförmåga" data-eio="l"></noscript></p>
+<ul>
+<li>
+        Begränsad lånekapacitet: Om din betalningsförmåga är svag kan långivare vara ovilliga att bevilja större lån. Detta begränsar dina möjligheter att finansiera viktiga investeringar, som bostad eller bil, vilket kan påverka din livsstil negativt.
+    </li>
+<li>
+        Högre räntor: En ogynnsam betalningsförmåga kan resultera i högre räntor på lån och krediter. Detta gör att dina totala kostnader för lån ökar, vilket kan leda till ekonomiska svårigheter över tid.
+    </li>
+<li>
+        Risk för avslag: Långivare kan avvisa din låneansökan baserat på en svag betalningsförmåga. Detta kan leda till frustration och hindra dig från att nå dina finansieringsmål, vilket skapar en känsla av maktlöshet.
+    </li>
+<li>
+        Ekonomisk stress: Osäkerhet kring din betalningsförmåga kan orsaka betydande stress och ångest. Denna stress kan påverka både fysisk och mental hälsa, vilket kan leda till andra livsstilsproblem.
+    </li>
+<li>
+        Svårigheter med budgetering: Om din betalningsförmåga är osäker kan det bli svårt att skapa en hållbar budget. Utan en klar överblick över inkomster och utgifter ökar risken för överkonsumtion och oplanerade skulder.
+    </li>
+<li>
+        Negativ effekt på kreditvärdighet: Missade betalningar eller överutnyttjande av krediter kan leda till en nedgradering av din kreditvärdighet. En låg kreditvärdighet begränsar framtida lånealternativ och kan göra det svårare att motivera långivare.
+    </li>
+<li>
+        Kortsiktig fokus: Många som har svag betalningsförmåga kan bli fast i en cykel av kortsiktig ekonomisk planering. Detta förhindrar dem från att tänka långsiktigt och investera i framtida tillgångar som kan ge avkastning.
+    </li>
+<li>
+        Förlust av flexibilitet: Svag betalningsförmåga kan göra det svårt att hantera plötsliga livsförändringar, såsom jobbförlust eller sjukdom. Utan en ekonomisk buffert kan det vara utmanande att anpassa sig till dessa förändringar.
+    </li>
+<li>
+        Svårare att få kreditkort: En dålig betalningsförmåga kan göra det svårt att få kreditkort. Utan kreditkort begränsas dina möjligheter att bygga upp en god kreditvärdighet och skyddas mot oväntade utgifter.
+    </li>
+<li>
+        Negativt påverkan på livskvalitet: En osäker ekonomisk situation kan påverka din livskvalitet kraftigt. Du kan behöva avstå från nöjen, resor eller andra aktiviteter, vilket kan påverka ditt allmänna välbefinnande och livsnöje.
+    </li>
+</ul>
+</div>
+</div>
+</div>
+<h2 class="videomedia"><span id="Oka_tryggheten_med_inkomstforsakring">
+<div class="unskew">Öka tryggheten med inkomstförsäkring</div>
+</span></h2>
+<div class="youtube-player" title="Öka tryggheten med inkomstförsäkring" data-id="t9bT8xJ1xeE"></div>
+<p>	<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Öka tryggheten med inkomstförsäkring",
+  "description": "Videoklippet förklarar hur en inkomstförsäkring kan fungera som en ekonomisk trygghet vid oväntade arbetsförluster. Genom att erbjuda en finansiell buffert hjälper den individer att upprätthålla sin livsstil och betala räkningar under tiden de söker nytt arbete.",
+  "thumbnailUrl": "https://i.ytimg.com/vi/t9bT8xJ1xeE/default.jpg",
+  "uploadDate": "2024-10-01T8:40:1Z", 
+  "embedUrl": "https://www.youtube.com/embed/t9bT8xJ1xeE"}</script><br>
+[</p>
+
+
+                         <div class="abh_box abh_box_down abh_box_business">
+<ul class="abh_tabs"> <li class="abh_about abh_active"><a href="#abh_about">Om</a></li> <li class="abh_posts"><a href="#abh_posts">Senaste inläggen</a></li>
+</ul>
+<div class="abh_tab_content">
+<section class="vcard author abh_about_tab abh_tab" itemscope itemprop="author" itemtype="https://schema.org/Person" style="display:block"><div class="abh_image" itemscope itemtype="https://schema.org/ImageObject">
+<a href="/author/agatoni/" class="url" target="_blank" title="Claes Bengtsson"> <img alt="Claes Bengtsson" srcset="data:image/gif;base64,/betalningsformaga/R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=%3D" class="avatar avatar-250 photo lazyload" height="250" width="250" data-src="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=250&d=mm&r=g" decoding="async" data-srcset="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=500&#038;d=mm&#038;r=g 2x"><noscript><img alt="Claes Bengtsson" src="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=250&#038;d=mm&#038;r=g" srcset="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=500&#038;d=mm&#038;r=g 2x" class="avatar avatar-250 photo" height="250" width="250" data-eio="l"></noscript></a> </div>
+<div class="abh_social"> </div>
+<div class="abh_text">
+<div class="abh_name fn name" itemprop="name">
+<a href="/author/agatoni/" class="url" target="_blank">Claes Bengtsson</a><span class="date-label"> | Uppdaterad: </span><time class="entry-date updated-date" datetime="2024-12-20T02:14:37+01:00" itemprop="dateModified">20 december, 2024</time>
+</div>
+<div class="abh_job"></div>
+<div class="description note abh_description" itemprop="description">Claes Bengtsson guidar våra besökare till optimala beslut. Claes utbildning kombinerat med praktisk erfarenhet garanterar kvalificerad rådgivning.</div>
+</div> </section><section class="abh_posts_tab abh_tab"><div class="abh_image"><a href="/author/agatoni/" class="url" target="_blank" title="Claes Bengtsson"><img alt="Claes Bengtsson" srcset="data:image/gif;base64,/betalningsformaga/R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=%3D" class="avatar avatar-250 photo lazyload" height="250" width="250" data-src="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=250&d=mm&r=g" decoding="async" data-srcset="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=500&#038;d=mm&#038;r=g 2x"><noscript><img alt="Claes Bengtsson" src="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=250&#038;d=mm&#038;r=g" srcset="https://secure.gravatar.com/avatar/200e38f2817945051ce58ce05c4f39e0?s=500&#038;d=mm&#038;r=g 2x" class="avatar avatar-250 photo" height="250" width="250" data-eio="l"></noscript></a></div>
+<div class="abh_social"> </div>
+<div class="abh_text">
+<div class="abh_name">Senaste inläggen av Claes Bengtsson <span class="abh_allposts">(<a href="/author/agatoni/">se alla</a>)</span>
+</div>
+<div class="abh_description note"><ul>				<li>					<a href="/lana-pengar-till-valutahandel/">Låna pengar till valutahandel</a><span> - 5 november 2025</span>				</li>				<li>					<a href="/lana-till-en-operation/">Låna till en operation</a><span> - 3 november 2025</span>				</li>				<li>					<a href="/memecoins/">Memecoins – Tokens, hype, risk och rug pulls</a><span> - 26 januari 2025</span>				</li>
+</ul></div>
+</div> </section>
+</div> </div>
+
+
+					
+
+
+				</div>	</div> 
+
+ 
+ 
+
+					
+
+
+					
+				<!-- end of .post-entry -->
+
+
+
+				<div class="navigation">
+
+					<div class="previous">&#8249; <a href="/ansokningsprocess/" rel="prev">Ansökningsprocess för lån</a>
+</div>
+
+					<div class="next">
+<a href="/flexibla-laneformer/" rel="next">Flexibla lån är anpassningsbara lån</a> &#8250;</div>
+
+				</div>
+<!-- end of .navigation -->
+
+
+
+				
+
+<div class="post-edit"></div>
+
+
+				
+			<!-- end of #post-10773 -->
+
+			
+
+
+			
+			
+
+
+
+
+			
+
+
+		
+
+
+<!-- end of #content -->
+
+
+
+
+	<div id="widgets" class="grid col-300 fit" role="complementary">
+		
+		<div id="block-3" class="widget-wrapper widget_block">
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"></div></div>
+</div>
+<div id="block-4" class="widget-wrapper widget_block">
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"></div></div>
+</div>
+			</div>
+<!-- end of #widgets -->
+ 
+ <div class="foot3">
+	 
+	 
+	  	 
+	  
+
+<div class="ftbox">
+<h5>Privatekonomi</h5>
+	
+	<p><a href="/ekorapport/">Ekorapport</a></p>
+	<p><a href="/inkomster/">Jämför inkomster</a></p>
+	<p><a href="/miljonlon/">Miljonlöner i Sverige</a></p>
+	<p><a href="/ppm/">Saldo PPM konto</a></p>
+	<p><a href="/marknadsranta/">Vad är marknadsränta?</a></p>
+</div>
+<div class="ftbox">
+<h5>Mer om oss</h5>
+ 
+<p><a href="/kontakta-oss/">Kontakt</a></p> 
+ 
+ <p><a target="_blank" href="https://www.linkedin.com/company/lastoffer-network/"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32" data-src="/media/linkedin.webp" decoding="async" class="lazyload" data-eio-rwidth="512" data-eio-rheight="512"><noscript><img src="/media/linkedin.webp" width="32" height="32" data-eio="l"></noscript></a></p>
+</div>
+	
+		<div class="ftbox">
+<h5>Utgivare</h5>
+	<p>Lastoffer Network</p>
+				<p>info@lastoffer.net</p>
+			 <p>© 2003-25</p>
+		 
+ </div>
+	 
+
+	 
+	 
+	  
+		<div class="ftbox"> 
+ </div> 	<div class="bajo">
+	
+	<div class="ft3"> 
+ 	<p>  <a><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="80" height="82" alt="lastoffer.net" data-src="/media/lnw2025.png" decoding="async" class="lazyload" data-eio-rwidth="80" data-eio-rheight="82"><noscript><img src="/media/lnw2025.png" width="80" height="82" alt="lastoffer.net" data-eio="l"></noscript></a> </p>
+</div>
+		
+	</div>
+</div>
+	 <div class="friskrivning">
+Friskrivning: All information var korrekt vid publiceringstillfället. Räntor och avtalsvillkor förändras kontinueligt och därför kan långivarens villkor ha ändrats. LastOffer.net är inte en låneförmedlare, kreditmarknadsföretag eller långivare. För individuell vägledning hänvisar vi till en professionell lånerådgivare. LastOffer.net kan erhålla ersättning för länkar och hänvisningar till andra hemsidor, men vi förhåller oss objektiva till den information vi förmedlar. För frågor, funderingar eller påpekande om avvikelser, vänligen kontakta oss på info@lastoffer.net. Genom att använda vår webbplats accepterar du dessa <a href="/villkor/">villkor</a>.</div>
+	
+
+
+<p></p>
+ 
+
+
+	
+ 
+
+ 
+ 
+<style>:root {
+  scroll-behavior: smooth;
+}
+
+ 
+
+.stt {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: rgb(12, 134, 226) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+  box-shadow: 0 0.25rem 0.5rem 0 gray;
+  opacity: 0.7;
+}
+
+.stt:hover {
+  opacity: 0.8;
+}
+
+.stt:focus {
+  opacity: 0.9;
+}
+
+.stt:active {
+  opacity: 1;
+}</style>
+<!-- Back to top button -->
+<a href="#" class="stt" title="scroll to top"></a> 
+
+<script>
+  /*
+   * Light YouTube Embeds by @labnol
+   * Credit: https://www.labnol.org/
+   */
+	
+  function labnolIframe(div) {
+    var iframe = document.createElement('iframe');
+    iframe.setAttribute('src', 'https://www.youtube.com/embed/' + div.dataset.id + '?autoplay=1&rel=0');
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowfullscreen', '1');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
+    div.parentNode.replaceChild(iframe, div);
+  }
+
+  function initYouTubeVideos() {
+    var playerElements = document.getElementsByClassName('youtube-player');
+    for (var n = 0; n < playerElements.length; n++) {
+      var videoId = playerElements[n].dataset.id;
+      var div = document.createElement('div');
+      div.setAttribute('data-id', videoId);
+      var thumbNode = document.createElement('img');
+      thumbNode.src = '//i.ytimg.com/vi/ID/hqdefault.jpg'.replace('ID', videoId);
+      div.appendChild(thumbNode);
+      var playButton = document.createElement('div');
+      playButton.setAttribute('class', 'play');
+      div.appendChild(playButton);
+      div.onclick = function () {
+        labnolIframe(this);
+      };
+      playerElements[n].appendChild(div);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', initYouTubeVideos);
+</script>
+<script>function showlenders() {
+const collection = document.getElementsByClassName("trlend");
+for (let i = 0; i < collection.length; i++) {
+  collection[i].style.display = "block";
+}}</script> 
+ 
+<script id="nsc_bar_nice-cookie-consent_js-js-after">window.addEventListener("load",function(){window.cookieconsent.initialise({
+    "content": {
+		
+			  		
+    },
+    "type": "info",
+    "palette": {
+        "popup": {
+            "background": "#003b49",
+            "text": "#fff"
+        },
+        "button": {
+            "background": "#fff",
+            "text": "#000",
+            "border": ""
+        },
+        "switches": {
+            "background": "",
+            "backgroundChecked": "",
+            "switch": "",
+            "text": ""
+        }
+    },
+    "position": "bottom",
+    "theme": "block",
+    "cookietypes": [
+        {
+            "label": "Technical",
+            "checked": "checked",
+            "disabled": "disabled",
+            "cookie_suffix": "tech"
+        },
+        {
+            "label": "Marketing",
+            "checked": "",
+            "disabled": "",
+            "cookie_suffix": "marketing"
+        }
+    ],
+    "revokable": "0",
+    "showCloseX": "1",
+    "container": "",
+    "customizedFont": "",
+    "improveBannerLoadingSpeed": "0"
+})});</script>
+   <script type="text/javascript" src="/wp-content/plugins/structured-content/dist/app.build.js?ver=1.5.3" id="structured-content-frontend-js"></script>
+<script type="text/javascript" id="eio-lazy-load-js-before">
+/* <![CDATA[ */
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"threshold":0};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=790" id="eio-lazy-load-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="/wp-content/themes/responsive/core/js/responsive-scripts.min.js?ver=1.2.6" id="responsive-scripts-js"></script>
+<script type="text/javascript" src="/wp-content/themes/responsive/core/js/jquery.placeholder.min.js?ver=2.0.7" id="jquery-placeholder-js"></script>
+<script type="text/javascript" id="toc-front-js-extra">
+/* <![CDATA[ */
+var tocplus = {"visibility_show":"visa","visibility_hide":"dölj","visibility_hide_by_default":"1","width":"Auto"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2309" id="toc-front-js"></script>
+ 
+
+<script type="text/javascript" src="https://cdn.adt558.com/atag.js?as=1047349355" charset="UTF-8"></script>
+</body>
+</html>
