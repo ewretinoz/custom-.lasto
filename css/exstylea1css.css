@@ -1,0 +1,895 @@
+ 
+		 
+		.cylinder {     background-image: url(../../lastoffer.net/media/miljonlon.html); 
+	
+	
+	height: 2em;
+    width: 100%;
+    background-size: 4em;
+    background-repeat: no-repeat;
+ 
+    background-position-x: center;}
+	.lann {  
+    font-family: 'Trat';
+  
+    color: #fff;
+    height: 8em;
+ 
+}
+     
+ 
+    .cbox  img {
+ 
+ 
+		    width: 3.5em !important;
+		
+    }
+		    .cbox1   {
+     padding:0.5em;
+     	
+        width: 12em;
+        height: 10em;
+     	color:#fff;
+   	background-color:#d92f79;
+			margin-right: 2em;
+				float:left;
+              border-radius: 1em;
+				font-weight:bold;
+				margin-bottom: 2em;
+					 background-image:url(kvinna.html);
+		background-repeat:no-repeat;
+		background-position:bottom;
+			  background-position-y:8em;
+    } 
+ 
+	
+	.cbox1   span  {
+        font-size:3em;
+  line-height:2em;
+	 color: #fff;
+	
+	 margin-bottom: 2em;
+    
+       }
+	
+	  .cbox2   {
+     padding:0.5em;
+      float:left;
+        width: 12em;
+        height: 10em;
+     	color:#fff;
+   	background-color:#0C86E2;
+			
+              border-radius: 1em;
+				font-weight:bold;
+		  	  background-image:url(man.html);
+		background-repeat:no-repeat;
+		background-position:bottom;
+		  background-position-y:8em;
+		  
+		
+    } 
+ 
+	
+
+.tlan {
+ 
+    height: 7em;
+}
+
+	.cbox2   span  {
+        font-size:3em;
+  line-height:2em;
+	 color: #fff;
+
+    
+       }
+	
+    	.cbox    span  {
+        font-size:3em;
+		  line-height:2em;
+	 color: #fff;
+ 
+              }
+		table.tabelllan    {
+ 
+height: 38em;
+		 background: #eaf7fe;
+		z-index:1;
+		border:0px;
+
+  }
+	
+		table.tabelllan  td,tr  {
+ 
+ 
+		border:0px;
+
+  }
+#parts-container {
+    position: top;
+ 
+    
+    } 
+    .cbox   {
+padding: 0.5em;
+    display: block;
+    background-color: #0067a4;
+    width: 10em;
+    color: #fff;
+    box-shadow: 1px 2px 2px black;
+    text-transform: uppercase;
+    text-align: center;
+		border-radius: 0.4em;
+    border-width: 0.2em;
+    }
+    
+     .cbox  img {
+ padding-top: 1em;
+ 
+		 width:4em;
+		
+    }
+		    
+ 
+ 
+	.kronor {     background-image: url(../media/kronor.png.webp); 
+	
+	
+	height: 3em;
+margin-top: 1em;
+    background-size: 2em;
+    background-repeat: no-repeat;
+ 
+    background-position-x: center;}
+	
+	
+	 
+  
+#DivAB, #DivAC, #DivW, #DivC, #DivD, #DivE, #DivF, #DivG, #DivH, #DivI, #DivK, #DivM, #DivN, #DivO, #DivS, #DivT, #DivU, #DivX, #DivY, #DivZ, #DivBD {  
+    visibility: hidden;  
+
+  }
+		 
+	
+#DivAB-topp, #DivAC-topp, #DivW-topp, #DivC-topp, #DivD-topp, #DivE-topp, #DivF-topp, #DivG-topp, #DivH-topp, #DivI-topp, #DivK-topp, #DivM-topp, #DivN-topp, #DivO-topp, #DivS-topp, #DivT-topp, #DivU-topp, #DivX-topp, #DivY-topp, #DivZ-topp, #DivBD-topp {  
+    visibility: hidden;  
+
+  }
+		 
+
+ 
+
+#DivAB-topp, #DivAC-topp, #DivW-topp, #DivC-topp, #DivD-topp, #DivE-topp, #DivF-topp, #DivG-topp, #DivH-topp, #DivI-topp, #DivK-topp, #DivM-topp, #DivN-topp, #DivO-topp, #DivS-topp, #DivT-topp, #DivU-topp, #DivX-topp, #DivY-topp, #DivZ-topp, #DivBD-topp {  
+  position: absolute;
+ 
+ 
+  
+ 
+}
+
+#DivAB, #DivAC, #DivW, #DivC, #DivD, #DivE, #DivF, #DivG, #DivH, #DivI, #DivK, #DivM, #DivN, #DivO, #DivS, #DivT, #DivU, #DivX, #DivY, #DivZ, #DivBD, #DivSW   {
+  position: absolute;
+ 
+ 
+  
+ 
+}
+		 polygon:hover, path:hover, circle:hover {
+  stroke: #495c7e !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #495c7e !important;
+  cursor: pointer;
+}
+			
+			#SELan{
+ 
+float: left;
+    margin-left: 30%;
+    z-index: 3;
+    height: 610px;
+				width: 260px;
+  
+}
+ 
+ 
+ 
+ 
+	 	.cbox    span  {
+      font-size: 1em;
+	 
+   
+    font-weight: bold;
+       }
+		
+ 
+    	 
+   
+	
+	.bubble {
+	position: relative;
+	width: 5em;
+	text-align: center;
+	line-height: 1.4em;
+ margin-left: 50%;
+	background-color: #fff;
+	border: 8px solid #333;
+	border-radius: 30px;
+	font-family: 'Courier';
+	padding: 20px;
+	font-size: x-large;
+    font-weight: bold;
+}
+
+ 
+
+.bubble:before,
+.bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+.speech:before {
+	left: 30px;
+	bottom: -50px;
+	border: 25px solid;
+	border-color: #333 transparent transparent #333;
+}
+
+.speech:after {
+	left: 38px;
+	bottom: -30px;
+	border: 16px solid;
+	border-color: #fff transparent transparent #fff;
+}
+ 
+path:hover, circle:hover {
+  stroke:  #495c7e !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill:  #495c7e !important;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #495c7e !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+			
+			 .img  {width:3em;}
+		 
+ 
+.graph {
+	margin-bottom:1em;
+  font:normal 100%/150% arial,helvetica,sans-serif;
+}
+
+.graph caption {
+	font:bold 150%/120% arial,helvetica,sans-serif;
+	padding-bottom:0.33em;
+}
+
+.graph tbody th {
+	text-align:right;
+}
+
+@supports (display:grid) {
+
+ 
+
+		.graph {
+			display:block;
+      width:100%;
+      height:300px;
+		
+		}
+
+ 
+		
+ .hasTooltip span {
+    display: none;
+    color: #000;
+    text-decoration: none;
+     width: 110px;
+  min-width: 110px;
+  max-width: 255px;
+	 padding:3px;
+	 
+}
+
+.hasTooltip:hover span {
+    display: block;
+    position:relative;
+    background-color: #FFF;
+	 color: #000;
+	border: 1px solid #CCC;
+  
+	  position: absolute;
+ 
+}
+		.graph caption {
+			display:block;
+		}
+
+		.graph thead {
+			display:none;
+		}
+
+		.graph tbody {
+			position:relative;
+			display:grid;
+			grid-template-columns:repeat(auto-fit, minmax(2em, 1fr));
+			column-gap:2.5%;
+			align-items:end;
+			height:100%;
+			margin:3em 0 1em 2.8em;
+			padding:0 1em;
+			border-bottom:2px solid rgba(0,0,0,0.5);
+			background:repeating-linear-gradient(
+				180deg,
+				rgba(170,170,170,0.7) 0,
+				rgba(170,170,170,0.7) 1px,
+				transparent 1px,
+				transparent 20%
+			);
+		}
+
+		.graph tbody:before,
+		.graph tbody:after {
+			position:absolute;
+			left:-3.2em;
+			width:2.8em;
+			text-align:right;
+			font:bold 80%/120% arial,helvetica,sans-serif;
+		}
+
+		.graph tbody:before {
+			content:"";
+			top:-0.6em;
+		}
+
+	 
+
+		.graph tr {
+			position:relative;
+			display:block;
+		}
+
+		.graph tr:hover {
+			z-index:999;
+		}
+
+		.graph th,
+		.graph td {
+			display:block;
+			text-align:center;
+		}
+
+		.graph tbody th {
+			position:absolute;
+			top:-3em;
+			left:0;
+			width:100%;
+			font-weight:normal;
+			text-align:center;
+      white-space:nowrap;
+			text-indent:0;
+			transform:rotate(-45deg);
+		}
+
+		.graph tbody th:after {
+			content:"";
+		}
+
+		.graph td {
+			width:100%;
+			height:100%;
+			background:#495c7e;
+			border-radius:0.5em 0.5em 0 0;
+			transition:background 0.5s;
+		}
+
+		.graph tr:hover td {
+			opacity:0.7;
+		}
+
+		.graph td span {
+			overflow:hidden;
+			position:absolute;
+			left:50%;
+			top:50%;
+			width:0;
+			padding:0.5em 0;
+			margin:-1em 0 0;
+			font:normal 85%/120% arial,helvetica,sans-serif;
+/* 			background:white; */
+/* 			box-shadow:0 0 0.25em rgba(0,0,0,0.6); */
+			font-weight:bold;
+			opacity:0;
+			transition:opacity 0.5s;
+      color:white;
+		}
+
+		.toggleGraph:checked + table td span,
+		.graph tr:hover td span {
+			width:4em;
+			margin-left:-2em; /* 1/2 the declared width */
+			opacity:1;
+		}}
+
+
+
+    
+
+ 
+.tabell {   height: 610px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ .chbo {
+ 	line-height:2; 
+ }
+ 
+ 
+ 
+ 
+ 
+   @media only screen and (min-width: 700px) {	
+	
+	.Karta{	float: right !important;   position: absolute;   display: block;}		}
+	 
+
+		.Karta{
+ 
+		width:200px;
+ 
+ top: 7em;
+		 right:2em;
+	} 
+	
+	 .chart {
+padding-top: 15%;
+	 display: table;
+	 table-layout: fixed;
+	 width: 95%;
+	 max-width: 700px;
+ padding-left: 0px;
+	 margin: 0 auto;
+ 	 background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.1) 5%, transparent 5%);
+	 background-size: 100% 3em;
+	 background-position: left top;
+}
+ .chart li {
+	 position: relative;
+	 display: table-cell;
+	 vertical-align: bottom;
+ 
+}
+	
+	
+ .chart span {
+	 
+	 display: block;
+	 height:50%; 
+	 color:#fff;
+	 margin-top:1em;
+	 		border-radius:0.5em 0.5em 0 0;
+	 background: #0C86E2;
+	 animation: draw 1s ease-in-out;
+	 margin-left: 0.2em;
+	 margin-bottom: 0.5em;
+}
+	
+	 .chart2  {
+	 margin: 0 0.1em;
+	 display: block;
+	 height:50%; 
+	 margin-top:1em;
+	 		border-radius:0.5em 0.5em 0 0;
+	 background: #0C86E2;
+	 animation: draw 1s ease-in-out;
+}
+		
+		  .chart li {
+		 text-align: center;
+			  height:10em;
+	 
+			 }
+		 .chart li img{
+		width:80%;
+		 
+			 top:-4em;
+			right:1.25em;
+			  }
+ .chart span:before {
+	 position: absolute;
+	 left: 0;
+	 right: 0;
+	 top: 100%;
+	 padding: 1px 1em 0;
+	 display: block;
+	 text-align: center;
+
+}
+	
+.chart img {
+    border-radius: 0px;
+}
+
+ .chart span:hover {
+			opacity:0.7;
+		}
+ @keyframes draw {
+	 0% {
+		 height: 0;
+	}
+}
+	 
+ .toppkommun {
+    float: right;
+	 margin-top: -5em;
+}
+ 
+	
+				@font-face{
+ font-family:'Trat';
+ src: url(TRATEP__.TTF);
+}
+ 				table.trafik { font-size:1em; text-align:right;    border-collapse:separate; border-spacing:0.3em; border:0px; }
+		
+		table.trafik td { padding:0px; border:none;}	
+		
+ 
+	 
+ 	 table.trafik td:nth-child(1) 
+	{  font-family:'Trat';     color:#000; background-color: #fed300;
+    border-color: #e53138;
+		width: 50px;
+    border-style: solid;
+    border-radius: 0.4em;
+    border-width:  0.2em;
+		text-align:center;
+  }
+	
+	 
+	 table.trafik td:nth-child(2) 
+	{font-family: 'Trat';
+    background-color: #0067a4;
+    color: #fff;
+    text-align: left;
+    border-color: #fff;
+    border-radius: 0.4em;
+    border-width: 0.2em;
+    display: table;
+ 
+    padding-right: 0.4em;
+    padding-top: 0.3em;
+ 
+    display: flex;
+    align-items: center;
+    width: fit-content; }
+	
+ 
+table.trafik tr td:nth-child(3) 
+	{  font-family:'Courier';  font-weight:bold; color:black;     background-color: #2222;
+    border-radius: 0.5em;
+    padding-right: 0.4em; width: 95px; }
+			
+		
+	table.trafik img {height:2em;     
+    padding: 0.3em;
+    padding-right: 0.5em; }
+		
+		
+		table.trafik tr td:nth-child(4) 
+	{  font-family:'Courier';  font-weight:bold; color:black;     background-color: #d92f79;
+    border-radius: 0.5em;
+    padding-right: 0.4em; 	width:25px;
+		 }
+		
+	table.trafik img {height:2em;     
+    padding: 0.3em;
+    padding-right: 0.5em; }
+		
+		
+		table.trafik tr td:nth-child(5) 
+	{  font-family:'Courier';  font-weight:bold; color:black;     background-color:  #0C86E2;
+    border-radius: 0.5em;
+    padding-right: 0.4em; 	width:25px;}
+	
+		
+	table.trafik img {height:2em;     
+    padding: 0.3em;
+    padding-right: 0.5em; }
+			table.trafik a:link{ color:#fff;}
+		table.trafik a:hover{ color:#fff;}
+		table.trafik a:visited{ color:#fff;}
+		
+  @media only screen and (max-width: 500px) {
+   .cbox   {
+ 
+ 
+        display: block;
+        width:8em;
+ 
+    
+			 position: relative;
+     
+		color:#000;
+		font-weight:bold;
+		
+    }
+		
+	
+			
+  } 
+      
+	  
+			
+	 
+    	.cbox2    span  {
+    font-size: 1.6em;
+  line-height: 1.5em;
+	 color: #fff;
+ 
+              }
+		  .cbox2   {
+    padding:0.5em;
+        display: block;
+        width: 6em;
+        height: 4em;
+     	color:#fff;
+ clear: both;
+		background-position-y: 2.8em;
+    background-size: 1.3em;
+		
+    } 
+ 
+ 
+	 
+@media (max-width:768px)
+	
+{ 
+ 
+#SELan {
+    float: right;
+	        width: 260px;
+	
+ }
+ 	 .toppkommun {
+  
+	 margin-top: 0em;
+}
+ 
+ }
+ 
+ 
+.mknapp {font-family: 'Courier'; 
+  background-color: #ddd;
+  border: none;
+  color: black;
+	 
+  padding: 5px;
+  text-align: center;
+	  text-transform:uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+	border: 2px solid transparent;
+		 text-decoration:none; 
+}
+.mknapp1 {font-family: 'Courier'; 
+  background-color: #000;
+  border: none;
+  color: wwhite;
+  padding: 5px 20px;
+	text-indent:8px;
+  text-align: center;
+	  text-transform:uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+	border: 2px solid transparent;
+		 text-decoration:none; 
+	background-image: url(../media/h2c.gif); background-size:1em;   background-position-x: 0.5em;
+    background-position-y: 0.5em;   
+    background-repeat: no-repeat;
+}
+	.mknapp1 a {color:white; text-decoration:none; }
+ 
+ 
+.mknapp2 {font-family: 'Courier'; 
+  background-color: #0C86E2;
+  border: none;
+  color: wwhite;
+  padding: 5px 20px;
+	 
+	text-indent:8px;
+  text-align: center;
+	  text-transform:uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+	border: 2px solid transparent;
+		 text-decoration:none; 
+	background-image: url(../media/nyheter1.gif); background-size:1em;   background-position-x: 0.5em;
+    background-position-y: 0.5em;   
+    background-repeat: no-repeat;
+}
+	.mknapp2 a {color:white; text-decoration:none; }
+.active, .mknapp2:hover {
+  background-color: #f1f1f1;
+     border: 2px solid #000;
+        overflow: hidden;  
+	 text-decoration:none; 
+    color: black;
+	
+  
+}
+ 
+.mknapp3 {font-family: 'Courier'; 
+  background-color: #008000;
+  border: none;
+  color:  white;
+  padding: 5px 20px;
+	 
+	text-indent:8px;
+  text-align: center;
+	  text-transform:uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+ 
+  cursor: pointer;
+  border-radius: 16px;
+	border: 2px solid transparent;
+		 text-decoration:none; 
+	background-image: url(../media/cent-4.gif); background-size:1em;   background-position-x: 0.5em;
+    background-position-y: 0.5em;   
+    background-repeat: no-repeat;
+}
+.mknapp4 {font-family: 'Courier'; 
+  background-color: #bab124;
+  border: none;
+  color:  white;
+  padding: 5px 20px;
+	text-indent:8px;
+	 
+  text-align: center;
+	  text-transform:uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+ 
+  cursor: pointer;
+  border-radius: 16px;
+	border: 2px solid transparent;
+		 text-decoration:none; 
+	background-image: url(../media/miljon-3.gif); background-size:1em;   background-position-x: 0.5em;
+    background-position-y: 0.5em;   
+    background-repeat: no-repeat;
+}
+	
+	
+	.mknapp2 a {color:white; text-decoration:none; }
+.active, .mknapp:hover {
+  background-color: #f1f1f1;
+     border: 2px solid #000;
+        overflow: hidden;  
+	 text-decoration:none; 
+    color: black;
+	
+  
+}
+	
+		.mknapp5 {font-family: 'Courier'; 
+  background-color: #cc4202;
+  border: none;
+  color:  white;
+  padding: 5px 20px;
+	text-indent:8px;
+  text-align: center;
+	  text-transform:uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+ 
+  cursor: pointer;
+  border-radius: 16px;
+	border: 2px solid transparent;
+		 text-decoration:none; 
+ background-image: url(../media/ppm-icon.gif); background-size:1em;   background-position-x: 0.5em;
+    background-position-y: 0.5em;   
+    background-repeat: no-repeat;
+}
+	.mknapp5 a:hover  {color:white; text-decoration:none;  background-color:#cc4202;    overflow: hidden;  }
+		.mknapp5 a {color:white; text-decoration:none; }
+		.mknapp5 a:visited  {color:white;}
+	.mknapp  a {color:#000; text-decoration:none; }
+		.mknapp5 a:visited  {color:white;}
+	.mknapp4 a {color:white; text-decoration:none; }
+	.mknapp1 a {color:white; text-decoration:none; }
+	.mknapp2 a {color:white; text-decoration:none; }
+.mknapp3 a {color:white; text-decoration:none; }
+	.mknapp1 a:hover {color:white; text-decoration:none; }
+
+
+.active, .mknapp1:hover {
+  background-color: #000;
+     border: 2px solid #CCC;
+        overflow: hidden;  
+	color:white;
+	 text-decoration:none; 
+  
+}
+
+
+.active, .mknapp2:hover {
+  background-color: #0C86E2;
+     border: 2px solid #CCC;
+        overflow: hidden;  
+	 text-decoration:none; 
+    color: white;
+	
+  
+}
+
+.active, .mknapp3:hover {
+  background-color: #008000;
+     border: 2px solid #CCC;
+        overflow: hidden;  
+	 text-decoration:none; 
+    color: white;
+	
+  
+}
+	
+	.active, .mknapp4:hover {
+  background-color: #bab124;
+     border: 2px solid #CCC;
+        overflow: hidden;  
+	 text-decoration:none; 
+    color: white;
+	
+  
+}
+	.mknapp a:hover  {color:#000; text-decoration:none;     overflow: hidden;  }
+
+	.mknapp1 a:hover  {color:white; text-decoration:none;     overflow: hidden;  }
+
+	.mknapp2 a:hover  {color:white; text-decoration:none;     overflow: hidden;  }
+
+	.mknapp3 a:hover  {color:white; text-decoration:none;     overflow: hidden;  }
+	.mknapp a:visited  {color:#000;}
+
+	.mknapp1 a:visited  {color: white;}
+
+	.mknapp2 a:visited  {color:white;}
+
+	.mknapp3 a:visited  {color:white;}
+
+a.in:visited {
+    color: black;
+}
