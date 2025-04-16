@@ -1,13 +1,13 @@
-@font-face{font-family:etc-trispace;src:url(ETCTrispace-Regular.woff2); format('woff2'); font-display:fallback;}#wrapper{clear:both; overflow:hidden;}body{color:#000}img{height:auto}a,b,body,div,em,h1,h2,h3,html,img,li,p,span,strong,ul{border:0;font:inherit;margin:0;padding:0;vertical-align:baseline}html{height:100%;overflow-x:hidden}body{-moz-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;background:#efefef;font-family:etc-trispace;font-size:14px;line-height:1.5em}p{word-wrap:break-word}em{font-style:italic}b,strong{font-weight:700}.grid{margin-bottom:2.127659574468%;padding-top:0}a{color:#3333FF;font-weight:400;text-decoration:none}a:active,a:focus,a:hover{color:#3333FF;outline:0;text-decoration:none}a::-moz-selection{background:#999;color:#fff;text-shadow:none}p, ul{padding:0;list-style-type:disc}h1,h2,h3{font-weight:700;line-height:1em;word-wrap:break-word}h1{margin-top:10px;font-size:2em;margin-bottom:.5em}h2{font-size:2.25em;margin-bottom:.75em;margin-top:.75em} ul{margin:0 1.5em 1.5em 0;padding-left:2em}#container{margin:0 auto;max-width:1280px}#container:after,#container:before,.clearfix:after,.clearfix:before{content:' ';display:table}#container:after,.clearfix:after{clear:both}dl.faq button{margin:0;margin-top:16px;padding:4px 8px;font-weight:700;font-size:110%;border:none;background-color:transparent;border-radius:5px}dl dd{margin:0;padding:0;margin-left:1.5em;padding-bottom:20px;border-bottom:2px solid #777}dl.faq .desc{margin:0;margin-top:.25em;padding:.25em;font-size:110%;display:none;background-color:#fed}dl.faq button:focus,dl.faq button:hover{padding:2px 6px;background-color:#def;border:2px solid #005a9c;cursor:pointer}dl.faq button[aria-expanded=false]::before{content:url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' style='forced-color-adjust: auto;'%3E%3Cpolygon points='1 1, 1 11, 8 6' fill='currentcolor' stroke= 'currentcolor' /%3E%3C/svg%3E%0A");position:relative;left:-2px}dl.faq button[aria-expanded=true]::before{content:url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' style='forced-color-adjust: auto;'%3E%3Cpolygon points='1 1, 11 1, 6 8' fill='currentcolor' stroke= 'currentcolor' /%3E%3C/svg%3E");position:relative;left:-4px;top:2px}.bbelopp{margin:10px;display:inline-block}.dmca a:link{background-color:transparent}.lastoffer{background-color:#000;color:#fff;padding:5px}.header{background-image:url(http://localhost/laana_pengar/media/bg2023b.webp);background-repeat:no-repeat;position:fixed;box-shadow:2px 2px 6px -2px #000;height:50px;padding-left: 3px;border-color:transparent;max-width:1280px;width: 100%;margin:0 auto; z-index:5}.header ul{margin:0;padding:0;list-style:none;overflow:hidden;background-color:#fff;position:relative}.header li a{color:#000;padding:20px 10px;border-right:1px solid #f4f4f4;text-decoration:none}.header .menu-btn:hover,.header li a:hover{background-color:#d3d3d3}.header .logo{display:block;float:left;font-size:1em;padding:5px 3px;text-decoration:none}.header .logo img{height:40px;width:40px;}.header  @media (min-width:48em){.header li{float:left}.header li a{padding:20px 20px}.header .menu{clear:none;float:right;max-height:none}.header .menu-icon{display:none}}.fordel{background-image:url(http://localhost/laana_pengar/media/plussymbol1.webp);background-repeat:no-repeat;background-size:contain;padding-left:30px;margin-bottom:20px;text-align:left;margin-left:25px;font-size:1.1em}#logo{padding:0}#wrapper{border-radius:0 0 10px 10px;width:100%;max-width:1280px;margin:0 auto}p{font-size:16px;line-height:150%;font-family:etc-trispace;margin-bottom: 1em;} h1{font-size:2em;font-family:etc-trispace} 
+@font-face{font-family:etc-trispace;src:url(ETCTrispace-Regular.woff2); format('woff2'); font-display:fallback;}#wrapper{clear:both; overflow:hidden;}body{color:#000}img{height:auto}a,b,body,div,em,h1,h2,h3,html,img,li,p,span,strong,ul{border:0;font:inherit;margin:0;padding:0;vertical-align:baseline}html{height:100%;overflow-x:hidden}body{-moz-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;background:#efefef;font-family:etc-trispace;font-size:14px;line-height:1.5em}p{word-wrap:break-word}em{font-style:italic}b,strong{font-weight:700}.grid{margin-bottom:2.127659574468%;padding-top:0}a{color:#3333FF;font-weight:400;text-decoration:none}a:active,a:focus,a:hover{color:#3333FF;outline:0;text-decoration:none}a::-moz-selection{background:#999;color:#fff;text-shadow:none}p, ul{padding:0;list-style-type:disc}h1,h2,h3{font-weight:700;line-height:1em;word-wrap:break-word}h1{margin-top:10px;font-size:2em;margin-bottom:.5em}h2{font-size:2.25em;margin-bottom:.75em;margin-top:.75em} ul{margin:0 1.5em 1.5em 0;padding-left:2em}#container{margin:0 auto;max-width:1280px}#container:after,#container:before,.clearfix:after,.clearfix:before{content:' ';display:table}#container:after,.clearfix:after{clear:both}dl.faq button{margin:0;margin-top:16px;padding:4px 8px;font-weight:700;font-size:110%;border:none;background-color:transparent;border-radius:5px}dl dd{margin:0;padding:0;margin-left:1.5em;padding-bottom:20px;border-bottom:2px solid #777}dl.faq .desc{margin:0;margin-top:.25em;padding:.25em;font-size:110%;display:none;background-color:#fed}dl.faq button:focus,dl.faq button:hover{padding:2px 6px;background-color:#def;border:2px solid #005a9c;cursor:pointer}dl.faq button[aria-expanded=false]::before{content:url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' style='forced-color-adjust: auto;'%3E%3Cpolygon points='1 1, 1 11, 8 6' fill='currentcolor' stroke= 'currentcolor' /%3E%3C/svg%3E%0A");position:relative;left:-2px}dl.faq button[aria-expanded=true]::before{content:url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' style='forced-color-adjust: auto;'%3E%3Cpolygon points='1 1, 11 1, 6 8' fill='currentcolor' stroke= 'currentcolor' /%3E%3C/svg%3E");position:relative;left:-4px;top:2px}.bbelopp{margin:10px;display:inline-block}.dmca a:link{background-color:transparent}.lastoffer{background-color:#000;color:#fff;padding:5px}.header{background-image:url(https://lastoffer.net/media/bg2023b.webp);background-repeat:no-repeat;position:fixed;box-shadow:2px 2px 6px -2px #000;height:50px;padding-left: 3px;border-color:transparent;max-width:1280px;width: 100%;margin:0 auto; z-index:5}.header ul{margin:0;padding:0;list-style:none;overflow:hidden;background-color:#fff;position:relative}.header li a{color:#000;padding:20px 10px;border-right:1px solid #f4f4f4;text-decoration:none}.header .menu-btn:hover,.header li a:hover{background-color:#d3d3d3}.header .logo{display:block;float:left;font-size:1em;padding:5px 3px;text-decoration:none}.header .logo img{height:40px;width:40px;}.header  @media (min-width:48em){.header li{float:left}.header li a{padding:20px 20px}.header .menu{clear:none;float:right;max-height:none}.header .menu-icon{display:none}}.fordel{background-image:url(https://lastoffer.net/media/plussymbol1.webp);background-repeat:no-repeat;background-size:contain;padding-left:30px;margin-bottom:20px;text-align:left;margin-left:25px;font-size:1.1em}#logo{padding:0}#wrapper{border-radius:0 0 10px 10px;width:100%;max-width:1280px;margin:0 auto}p{font-size:16px;line-height:150%;font-family:etc-trispace;margin-bottom: 1em;} h1{font-size:2em;font-family:etc-trispace} 
 
- body{max-width:1280px;margin:0 auto; overflow-x: hidden;background-color:#848484;background-image:url(http://localhost/laana_pengar/wp-content/themes/responsive/core/css/lnbg4.webp);background-repeat:repeat-y;background-position:center;background-attachment:fixed} #logo{margin:5px;width:350px;padding:5px;height:150px;background-image:url(http://localhost/laana_pengar/wp-content/themes/responsive/core/css/lnblo.webp);background-repeat:no-repeat;top:0;left:0;border-radius:10px 0 0 0}#logo img{vertical-align:top}#container{margin:auto;max-width:1280px;position:relative;background-position-y:20px}article{padding:20px;border:1px solid #999;border-radius:5px;background:#fff}article{break-inside:avoid-column;margin-bottom:1rem}#container{margin:auto;max-width:1280px} span.gulmark {
+ body{max-width:1280px;margin:0 auto; overflow-x: hidden;background-color:#848484;background-image:url(https://lastoffer.net/wp-content/themes/responsive/core/css/lnbg4.webp);background-repeat:repeat-y;background-position:center;background-attachment:fixed} #logo{margin:5px;width:350px;padding:5px;height:150px;background-image:url(https://lastoffer.net/wp-content/themes/responsive/core/css/lnblo.webp);background-repeat:no-repeat;top:0;left:0;border-radius:10px 0 0 0}#logo img{vertical-align:top}#container{margin:auto;max-width:1280px;position:relative;background-position-y:20px}article{padding:20px;border:1px solid #999;border-radius:5px;background:#fff}article{break-inside:avoid-column;margin-bottom:1rem}#container{margin:auto;max-width:1280px} span.gulmark {
     background-color: #ffec90;
     color: black;
 }
 span.gulmark a{
  
     color: black;
-}#wrapper{background:0 0;border:none} .cell{position:relative; background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(242 240 240) 35%, rgb(248 246 246) 100%);display:inline-block;text-align: left;margin:5px;background-color:#fff;border-radius: 16px 0px;box-shadow:2px 2px 6px -2px #000; padding: 5px; height:fit-content;vertical-align:top;margin-top: 20px;}.right{float:right}.fot{margin:5px;float:right;color:#fff;font-weight:700;width:350px;height:200px;text-align:right;padding:5px;margin-top:5px;background-image:url(http://localhost/laana_pengar/wp-content/themes/responsive/core/css/lnblor.webp);background-repeat:no-repeat;position:relative;border-radius:0 10px 10px 0}.fot a:link{background:#fff;color:#3333FF;padding:3px;border-radius:5px}#content-full{max-width:fit-content}.youtube-player{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;background:#000;margin:5px}.youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.youtube-player img{object-fit:cover;display:block;left:0;bottom:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all;max-height:100%}.youtube-player img:hover{-webkit-filter:brightness(75%)}.youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;cursor:pointer}.questions,.videomedia{transform: translateZ(0) skew(-12deg);border-radius:8px;box-shadow:1px 2px 2px #000;background-color:#0c86e2;color:#fff;background-image:url(http://localhost/media/fragorsvar.webp);background-size:40px;background-position-x:5px;background-position-y:10px; display:inline-block;background-repeat:no-repeat;text-align:center;padding:.5em;padding-left:60px;;margin-left:10px;margin-right:10px;margin-top: 20px;}.videomedia{background-image:url(http://localhost/media/filmkamera.webp)}@media only screen and (max-width:1100px){.header li a{padding:10px}}@media only screen and (max-width:1000px){.header li a{font-size:.8em}}@media only screen and (max-width:920px){.header li a{padding:5px;font-size:.75em}.cell{max-width:95%;}}.button:hover{background-color:#eee;color:#555}.button.large{margin-top:10px;min-width:50%}.row{float:left;width:50%;padding:5px;box-sizing:border-box}h1{text-align:left; font-size:1.8em; box-shadow:2px 2px 6px -2px #000;background-color:#000;border-radius:5px;margin-left:5px;margin-right:5px;padding: 5px;line-height: 1.3;color:#fff;font-family:etc-trispace ;margin-top:10px;margin-bottom:0;height:fit-content;width:fit-content;}.in{display:inline-block} 
+}#wrapper{background:0 0;border:none} .cell{position:relative; background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(242 240 240) 35%, rgb(248 246 246) 100%);display:inline-block;text-align: left;margin:5px;background-color:#fff;border-radius: 16px 0px;box-shadow:2px 2px 6px -2px #000; padding: 5px; height:fit-content;vertical-align:top;margin-top: 20px;}.right{float:right}.fot{margin:5px;float:right;color:#fff;font-weight:700;width:350px;height:200px;text-align:right;padding:5px;margin-top:5px;background-image:url(https://lastoffer.net/wp-content/themes/responsive/core/css/lnblor.webp);background-repeat:no-repeat;position:relative;border-radius:0 10px 10px 0}.fot a:link{background:#fff;color:#3333FF;padding:3px;border-radius:5px}#content-full{max-width:fit-content}.youtube-player{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;background:#000;margin:5px}.youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.youtube-player img{object-fit:cover;display:block;left:0;bottom:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all;max-height:100%}.youtube-player img:hover{-webkit-filter:brightness(75%)}.youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;cursor:pointer}.questions,.videomedia{transform: translateZ(0) skew(-12deg);border-radius:8px;box-shadow:1px 2px 2px #000;background-color:#0c86e2;color:#fff;background-image:url(https://lastoffer.net/media/fragorsvar.webp);background-size:40px;background-position-x:5px;background-position-y:10px; display:inline-block;background-repeat:no-repeat;text-align:center;padding:.5em;padding-left:60px;;margin-left:10px;margin-right:10px;margin-top: 20px;}.videomedia{background-image:url(https://lastoffer.net/media/filmkamera.webp)}@media only screen and (max-width:1100px){.header li a{padding:10px}}@media only screen and (max-width:1000px){.header li a{font-size:.8em}}@media only screen and (max-width:920px){.header li a{padding:5px;font-size:.75em}.cell{max-width:95%;}}.button:hover{background-color:#eee;color:#555}.button.large{margin-top:10px;min-width:50%}.row{float:left;width:50%;padding:5px;box-sizing:border-box}h1{text-align:left; font-size:1.8em; box-shadow:2px 2px 6px -2px #000;background-color:#000;border-radius:5px;margin-left:5px;margin-right:5px;padding: 5px;line-height: 1.3;color:#fff;font-family:etc-trispace ;margin-top:10px;margin-bottom:0;height:fit-content;width:fit-content;}.in{display:inline-block} 
 .unskew {
     transform: translateZ(0) skew(12deg);
  
@@ -15,16 +15,16 @@ span.gulmark a{
 }
  
 
-.ricon{background-image:url(http://localhost/media/ricon.webp);background-repeat:no-repeat;background-size:40px}.lan{background-image:url(http://localhost/media/lanapengar200.webp);background-repeat:no-repeat;background-size:40px;   margin-left: 5px;}.statpie{background-image:url(http://localhost/media/statpie.webp);background-repeat:no-repeat;background-size:40px}.block{display:block}.full{width:100%}a:hover{color:#3333FF; text-decoration:underline;}.rw{width:100%;display:inline-block}  
+.ricon{background-image:url(https://lastoffer.net/media/ricon.webp);background-repeat:no-repeat;background-size:40px}.lan{background-image:url(https://lastoffer.net/media/lanapengar200.webp);background-repeat:no-repeat;background-size:40px;   margin-left: 5px;}.statpie{background-image:url(https://lastoffer.net/media/statpie.webp);background-repeat:no-repeat;background-size:40px}.block{display:block}.full{width:100%}a:hover{color:#3333FF; text-decoration:underline;}.rw{width:100%;display:inline-block}  
 
-.hblp{font-size: 14px;     margin-top: -20px; padding-left: 2px;margin-left:5px;text-align:left;box-shadow:2px 2px 6px -2px #000;background-color:#000;border-radius:0 0 5px 5px;width:95px;height:20px;background-image:url(http://localhost/laana_pengar/wp-content/themes/responsive/core/css/ledblue.webp);background-repeat:no-repeat}#date{line-height: inherit;color:#fff;font-family:etc-trispace;padding-left:10px;font-size:.8em;text-aalign:center;height:10px}.none{display:none}
+.hblp{font-size: 14px;     margin-top: -20px; padding-left: 2px;margin-left:5px;text-align:left;box-shadow:2px 2px 6px -2px #000;background-color:#000;border-radius:0 0 5px 5px;width:95px;height:20px;background-image:url(https://lastoffer.net/wp-content/themes/responsive/core/css/ledblue.webp);background-repeat:no-repeat}#date{line-height: inherit;color:#fff;font-family:etc-trispace;padding-left:10px;font-size:.8em;text-aalign:center;height:10px}.none{display:none}
 
 .cinfo1 {
 margin: 5px;
     padding: 5px;
 	border-radius: 8px 0px;
    background-color: #e8e8e8;
-    background-image: url(http://localhost/media/bakglan.webp);
+    background-image: url(https://lastoffer.net/media/bakglan.webp);
    background-repeat: no-repeat;
     background-position: center;
 	display: inline-block;
@@ -59,7 +59,7 @@ display: inline-table;
     margin-right: 2%;
  
 }
-.skw { background-image: url(http://localhost/media/swipe.webp);
+.skw { background-image: url(https://lastoffer.net/media/swipe.webp);
     background-repeat: no-repeat;
 	margin-top: 20px;
    background-size: 40px;
@@ -81,7 +81,7 @@ thead tr {
  
 }
 	  .info {
-    background-image: url(http://localhost/media/visainfo.webp);
+    background-image: url(https://lastoffer.net/media/visainfo.webp);
 	 height: 40px;
     background-repeat: no-repeat;
 background-position: center;
@@ -91,7 +91,7 @@ background-position: center;
  
 	
 		 	#fordel{
-    background-image: url(http://localhost/media/bastval.webp);
+    background-image: url(https://lastoffer.net/media/bastval.webp);
 		 height: 40px;
     background-repeat: no-repeat;
 background-position: center;
@@ -196,7 +196,7 @@ div#slogan {
     max-width: 95%;
     rounded-corner: 10px;
     border-radius: 10px;
-    background-image: url(http://localhost/laana_pengar/media/flygplan.webp);
+    background-image: url(https://lastoffer.net/media/flygplan.webp);
     background-size: 100px;
     background-repeat: none;
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@ div#slogan {
 }
   
 .plus {
-    background-image: url(http://localhost/laana_pengar/media/plussymbol.webp);
+    background-image: url(https://lastoffer.net/media/plussymbol.webp);
  
 background-position-y: 36px;
    background-size: 40px;
@@ -237,7 +237,7 @@ max-width: 400px;
 margin:0 auto;
 }
 .ford {
-    background: url(http://localhost/media/pen-brushes.svg);
+    background: url(https://lastoffer.net/media/pen-brushes.svg);
  
 font-weight: 700;
 display: inline-block;
@@ -252,7 +252,7 @@ background-size: 100%;
 }
 
  		.gem {
-    background-image: url(http://localhost/media/gem.webp);
+    background-image: url(https://lastoffer.net/media/gem.webp);
     position: relative;
     width: 41px;
     height: 100px;
@@ -260,12 +260,12 @@ background-size: 100%;
     float: right;
 }
 
-.villkor {  background-image: url(http://localhost/media/villkor.webp);
+.villkor {  background-image: url(https://lastoffer.net/media/villkor.webp);
     background-repeat: no-repeat; height: 40px;
     background-size: 40px;  margin-top: 50px; margin-bottom: 50px;  background-position-x: 5px;  }
 
 
- .offer {  background-image: url(http://localhost/media/offer.webp);
+ .offer {  background-image: url(https://lastoffer.net/media/offer.webp);
     background-repeat: no-repeat; height: 40px;
     background-size: 40px;  margin-top: 50px;
 margin-bottom: 50px;
@@ -273,7 +273,7 @@ margin-bottom: 50px;
 
 
 
- .avgift {  background-image: url(http://localhost/media/avgift.webp);
+ .avgift {  background-image: url(https://lastoffer.net/media/avgift.webp);
     background-repeat: no-repeat; height: 40px;
     background-size: 40px;  margin-top: 50px;
 margin-bottom: 50px;
@@ -355,7 +355,7 @@ img.loggy {
 			#chrt	th:nth-child(1) {width:100px;}
 		#chrt	td:nth-child(2) { 
  
-    background-image: url(http://localhost/media/fargskala.webp);
+    background-image: url(https://lastoffer.net/media/fargskala.webp);
     background-size: 640px;
   
   
@@ -483,19 +483,19 @@ min-width: 80px;
 
 #dkreditknapp{
  
-    background-image: url(http://localhost/media/kreditscore-s.webp);
+    background-image: url(https://lastoffer.net/media/kreditscore-s.webp);
 } 
  
  
 #jknapp{
  
-    background-image: url(http://localhost/media/jamforknapp.webp);
+    background-image: url(https://lastoffer.net/media/jamforknapp.webp);
   }
 
 #lanknapp{
  
  
-    background-image: url(http://localhost/media/lnknapp1.webp);
+    background-image: url(https://lastoffer.net/media/lnknapp1.webp);
  
 
    
@@ -506,56 +506,56 @@ min-width: 80px;
 #bngknap{
  
  
-    background-image: url(http://localhost/media/bngknapp1.webp);
+    background-image: url(https://lastoffer.net/media/bngknapp1.webp);
   
 }
 
 #blknapp{
  
  
-    background-image: url(http://localhost/media/blknapp1.webp);
+    background-image: url(https://lastoffer.net/media/blknapp1.webp);
   
 }
 
 #kntknapp{
  
  
-    background-image: url(http://localhost/media/kntknapp1.webp);}
+    background-image: url(https://lastoffer.net/media/kntknapp1.webp);}
   
 #samlaknapp{
  
-    background-image: url(http://localhost/media/knappsamla.webp);
+    background-image: url(https://lastoffer.net/media/knappsamla.webp);
   }
 
 #snabblknapp{
  
-    background-image: url(http://localhost/media/knappsnabb.webp);
+    background-image: url(https://lastoffer.net/media/knappsnabb.webp);
   }
 #sknapp{
  
-    background-image: url(http://localhost/media/knappspara.webp);
+    background-image: url(https://lastoffer.net/media/knappspara.webp);
   }
 
 
 #betanmknapp{
  
-    background-image: url(http://localhost/media/betan.webp);
+    background-image: url(https://lastoffer.net/media/betan.webp);
   }
 
 #fknapp{
  
-    background-image: url(http://localhost/media/fknapp.webp);
+    background-image: url(https://lastoffer.net/media/fknapp.webp);
   }
 #videoknapp
  {
- background-image: url(http://localhost/media/videotek.webp);
+ background-image: url(https://lastoffer.net/media/videotek.webp);
  
 	 background-color:white;
   
 }
 #fragorsvarknapp
  {
- background-image: url(http://localhost/media/fragorsvarknapp.webp);
+ background-image: url(https://lastoffer.net/media/fragorsvarknapp.webp);
  
 	 background-color:#0e84e4;
  
@@ -566,7 +566,7 @@ min-width: 80px;
 
  .meny {  
  
-margin-top: 55px;
+margin-top: 55px;a
     margin-left: 5px;
     font-size: 1em;
     display: flex;
@@ -1110,7 +1110,7 @@ time.entry-date.updated-date {
 
 
 .tag3 a {
-    background-image: url(http://localhost/media/micro.svg);
+    background-image: url(https://lastoffer.net/media/micro.svg);
     background-repeat: no-repeat;
     background-position: left 1px center;
     -moz-appearance: none;
@@ -1197,13 +1197,13 @@ max-width: 100%;
 
 .cell.positiv li {
   
-    list-style-image: url(http://localhost/media/greencheck.svg);
+    list-style-image: url(https://lastoffer.net/media/greencheck.svg);
     padding-left: 20px;
 }
 
 .cell.negativ li {
   
-    list-style-image: url(http://localhost/media/minus.svg);
+    list-style-image: url(https://lastoffer.net/media/minus.svg);
     padding-left: 20px;
 }
 
@@ -1225,7 +1225,7 @@ div {
 
 .cell.tiotips li {
   
-    list-style-image: url(http://localhost/media/book.png);
+    list-style-image: url(https://lastoffer.net/media/book.png);
     padding-left: 20px;
 }
 
@@ -1326,7 +1326,7 @@ div {
     margin-left: 10px;
     padding-left: 60px; 
     background-repeat: no-repeat;
-    background-image: url(http://localhost/media/fingerpekare.png);
+    background-image: url(https://lastoffer.net/media/fingerpekare.png);
     background-size: contain;
 }
  h1{margin-top:10px;font-size:2em;margin-bottom:.5em}h2{font-size:2.25em;margin-bottom:.75em;margin-top:.75em}
@@ -1403,7 +1403,7 @@ h3#statistik {
 }
 
 .faqk h4 {  
-    background-image: url(http://localhost/media/piltavla.png);
+    background-image: url(https://lastoffer.net/media/piltavla.png);
     background-repeat: no-repeat;
     background-position: right -40px center;
     min-width: 300px;
@@ -1484,7 +1484,7 @@ ol.reko {
   border-radius: 15px;
 }
 
-.vinnare{background-image:url(http://localhost/media/vinnarpokal.png);}
+.vinnare{background-image:url(https://lastoffer.net/media/vinnarpokal.png);}
 .vinnare h2 {
     background-color: gold;
     color: black;
