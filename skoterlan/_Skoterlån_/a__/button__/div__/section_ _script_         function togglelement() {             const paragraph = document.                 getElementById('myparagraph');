@@ -1,22 +1,22 @@
 <!DOCTYPE html>
  
   
-<html lang="sv-SE"> 	 
+ 	 
   
  
-<head> 
+<html lang="sv-SE"> 
  
 <meta charset="UTF-8">
 <meta name='robots' content='noindex, follow' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
 	
-	<!-- This site is optimized with the Yoast SEO plugin v21.2 - https://yoast.com/wordpress/plugins/seo/ -->
+
 	<title>Sidan hittades inte - Lastoffer Network</title>
 	<meta property="og:locale" content="sv_SE" />
 	<meta property="og:title" content="Sidan hittades inte - Lastoffer Network" />
 	<meta property="og:site_name" content="Lastoffer Network" />
 	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://lastoffer.net/#website","url":"https://lastoffer.net/","name":"Lastoffer Network","description":"Jämför lånealternativ","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://lastoffer.net/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"sv-SE"}]}</script>
-	<!-- / Yoast SEO plugin. -->
+
 
 
 <link rel='stylesheet' id='structured-content-frontend-css' href='https://lastoffer.net/wp-content/plugins/structured-content/dist/blocks.style.build.css' type='text/css' media='all' />
@@ -33,8 +33,8 @@
 <link rel='stylesheet' id='responsive-style-css' href='https://lastoffer.net/wp-content/themes/responsive/core/css/style.css' type='text/css' media='all' />
 <script type="text/javascript" src="https://lastoffer.net/wp-content/themes/responsive/core/js/responsive-modernizr.min.js" id="modernizr-js"></script>
 <meta name="generator" content="WordPress 6.7.2" />
-<!-- We need this for debugging -->
-<!--   -->
+
+
 		<style type="text/css" id="wp-custom-css">
 			111		</style>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -128,11 +128,11 @@
 	<h1 class="title-404">404 &#8212; Trevligt att träffa dig här!</h1>
 
 
-		</div><!-- end of .post-entry -->
 
-			</div><!-- end of #post-0 -->
+
+
 	
-</div><!-- end of #content-full -->
+
 
  <div class="foot3">
 	 
@@ -217,7 +217,7 @@ Friskrivning: All information var korrekt vid publiceringstillfället. Räntor o
   opacity: 1;
 }
 </style>
-<!-- Back to top button -->
+
 <a href='#' class="stt" title="scroll to top"></a> 
 </script>
 <script>
